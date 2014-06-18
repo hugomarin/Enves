@@ -9,7 +9,7 @@
 					<li><a href="productos.php">PRODUCTOS</a></li>
 					<li><a href="eco.php">ECO-IMPRESIÓN</a></li>
 					<li><a href="comunidades.php">COMUNIDADES</a></li>
-					<!--<li><a href="noticias.php"> NOTICIAS</a></li>-->
+					<li><a href="noticias.php"> NOTICIAS</a></li>
 					<li><a href="contacto.php">CONTACTO</a></li>
 				</ul>
 			</div>
