@@ -4,7 +4,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->    
+<!--<![endif]-->
 <head>
     <meta charset="utf-8" />
     <!-- Set the viewport width to device width for mobile -->
@@ -13,14 +13,17 @@
     <!-- <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
     <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 </head>
-    
+
 <body>
   <?php include_once 'includes/header.php';?>
-  
+
   <div class="light">
       <div class="row">
               <div class="twelve column main_title top-margin-100">CONTACTO</div>

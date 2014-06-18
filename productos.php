@@ -13,18 +13,21 @@
     <!-- <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
     <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href="stylesheets/lightbox.css" rel="stylesheet" />
     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
     <script src="javascripts/modernizr.foundation.js"></script>
-    
-    
-  
+
+
+
 </head>
-    
+
 <body>
-  
+
     <div id="scroll">
         <div data-page="first" class="scroll_item">&nbsp;</div>
         <div data-page="second" class="scroll_item">&nbsp;</div>
@@ -164,7 +167,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
@@ -179,7 +182,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia confeccion">
                 <div class="element_gallery_container">
@@ -194,7 +197,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion" id="sixth">
                 <div class="element_gallery_container">
@@ -272,7 +275,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
@@ -290,7 +293,7 @@
 
 
 
- 
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion">
                 <div class="element_gallery_container">
@@ -534,8 +537,8 @@
             <!-- FINAL CONTENEDOR PRODUCTOS-->
 
 
-            
-            
+
+
                         <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina" id="second">
                 <div class="element_gallery_container">
@@ -559,7 +562,7 @@
                     <a id="loadimages13" class="example-image-link " href="" data-lightbox="arbolpintriple" title="Árbol pin triple">
                         <img src="img/productos/todos/arbolpin_triple/thumbnail.jpg" alt="foto1" />
                     </a>
-                    
+
 
                     <span class="subtitle3">ÁRBOL PIN TRIPLE</span>
                     <br>
@@ -568,8 +571,8 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
-            
+
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina hogar">
                 <div class="element_gallery_container">
@@ -598,8 +601,8 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
-                        
+
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina plantas hogar">
                 <div class="element_gallery_container">
@@ -710,7 +713,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina escritura">
                 <div class="element_gallery_container">
@@ -725,7 +728,7 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
+
 
 
 
@@ -776,10 +779,10 @@
                 </div>
             </div>
             <!-- FINAL CONTENEDOR PRODUCTOS-->
-            
-            
 
- 
+
+
+
 
 
 
@@ -994,14 +997,14 @@
             </div>
         <br>
         <br>
-    </div>    
-        
+    </div>
+
     <?php include_once 'includes/footer.php';?>
 </body>
 
 
 <script src="javascripts/enves.min.js"></script>
-   
+
     <script>
         $(document).ready(function() {
             $('.bxslider').bxSlider({
@@ -1067,7 +1070,7 @@
         });
     </script>
     <script type='text/javascript'>
-        //<![CDATA[ 
+        //<![CDATA[
         $(window).load(function() {
             $('.scroll_item').on('click', function() {
                 var elem = $('#' + $(this).data('page')),

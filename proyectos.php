@@ -13,15 +13,18 @@
     <!-- <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
     <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href="stylesheets/lightbox.css" rel="stylesheet" />
     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
-    
+
     <script src="javascripts/modernizr.foundation.js"></script>
 
 </head>
-    
+
 <body>
     <div id="scroll">
         <div data-page="first" class="scroll_item">&nbsp;</div>
@@ -30,7 +33,7 @@
          <div data-page="fourth" class="scroll_item">&nbsp;</div>
     </div>
     <?php include_once 'includes/header.php';?>
-    
+
     <div class="banner_wrapper2" id="first">
         <ul class="bxslider">
             <li>
@@ -76,8 +79,8 @@
 	          <div class="four column">
 	              <div class="darkbg1"></div>
 	              <div class="dark_text">
-	                  <p class="third_p">Creamos proyectos para el 
-	                      <strong><span class="gold">eficiente aprovechamiento y recuperación de residuos sólidos</span></strong> post industriales, diseñamos productos de acuerdo a sus necesidades, fabricamos en red con comunidades de población vulnerable o capacitamos sus comunidades de interés. 
+	                  <p class="third_p">Creamos proyectos para el
+	                      <strong><span class="gold">eficiente aprovechamiento y recuperación de residuos sólidos</span></strong> post industriales, diseñamos productos de acuerdo a sus necesidades, fabricamos en red con comunidades de población vulnerable o capacitamos sus comunidades de interés.
 	                      <strong>
 	                          	</p>
 	              </div>
@@ -126,7 +129,7 @@
                         <a id="loadimages8" class="example-image-link " href="" data-lightbox="guardianes" title="Proyecto con dos propósitos fundamentales: fomentar en los niños, la conservación de especies colombianas y apoyar iniciativas productivas de población vulnerable.">
 				    <img src="img/thumbnails/08_guardianes/thumbnail.jpg" alt="foto1" />
 				</a>
-                        
+
             <span class="subtitle3">GUARDIANES DE LOS ANIMALES</span>
             <br>
             <span class="subtitle4">ENVÉS</span>
@@ -138,7 +141,7 @@
                         <a id="loadimages5" class="example-image-link " href="" data-lightbox="escuela" title="Trabajo con jóvenes en situación de vulnerabilidad o víctimas del conflicto armado.">
                             <img src="img/thumbnails/05_ecopetrol_escuela_taller/thumbnail.jpg" alt="foto1" />
                         </a>
-                      
+
                         <span class="subtitle3">CARPINTERÍA SOCIAL</span>
                         <br>
                         <span class="subtitle4">ENVÉS</span>
@@ -146,13 +149,13 @@
                     </div>
                 </div>
             </div>
-            
-            
-            
+
+
+
             <div class="row ">
                 <div class="four columns">
                     <div class="element_gallery_container">
-                        <a id="loadimages1" class="example-image-link " href=""   data-lightbox="carpas" title="    
+                        <a id="loadimages1" class="example-image-link " href=""   data-lightbox="carpas" title="
 Carpas de camión Bavaria.">
                             <img src="img/thumbnails/01_carpas_bavaria/thumbnail.jpg" alt="foto1" />
                         </a>
@@ -169,7 +172,7 @@ Carpas de camión Bavaria.">
                         <a id="loadimages2" class="example-image-link " href="" data-lightbox="lampara" title=" Lámpara de iluminación LED, elaborada con botellas ambar no retornables.">
                             <img src="img/thumbnails/02_lamparas_botellas/thumbnail.jpg" alt="foto1" />
                         </a>
-                        
+
                         <span class="subtitle3">REUTILIZACIÓN BOTELLAS NO RETORNABLES</span>
                         <br>
                         <span class="subtitle4">BAVARIA</span>
@@ -181,7 +184,7 @@ Carpas de camión Bavaria.">
                         <a id="loadimages3" class="example-image-link " href="" data-lightbox="destapa" title="Hecho de acero inoxidable para garantizar su durabilidad.">
                             <img src="img/thumbnails/03_destapador_bavaria/thumbnail.jpg" alt="foto1" />
                         </a>
-                      
+
                         <span class="subtitle3">DISEÑO DESTAPADOR CLUB COLOMBIA</span>
                         <br>
                         <span class="subtitle4">BAVARIA</span>
@@ -189,7 +192,7 @@ Carpas de camión Bavaria.">
                     </div>
                 </div>
             </div>
-            
+
 
 
 
@@ -212,7 +215,7 @@ Carpas de camión Bavaria.">
                         <a id="loadimages6" class="example-image-link " href="" data-lightbox="eventos" title="Eventos HSE">
                             <img src="img/thumbnails/06_ecopetrol_eventos/thumbnail.jpg" alt="foto1" />
                         </a>
-                        
+
                         <span class="subtitle3">DESARROLLO EVENTOS HSE</span>
                         <br>
                         <span class="subtitle4">HSE</span>
@@ -224,7 +227,7 @@ Carpas de camión Bavaria.">
                         <a id="loadimages7" class="example-image-link " href="" data-lightbox="buchon" title="El buchón de agua es una planta que acaba con el oxígeno de las fuentes hídricas.">
                             <img src="img/thumbnails/07_buchon_de_agua/thumbnail.jpg" alt="foto1" />
                         </a>
-                        
+
                         <span class="subtitle3">DESARROLLO PRODUCTOS EN PAPEL DE BUCHÓN DE AGUA</span>
                         <br>
                         <span class="subtitle4">ENVÉS</span>
@@ -242,7 +245,7 @@ Carpas de camión Bavaria.">
                         <a id="loadimages9" class="example-image-link " href="" data-lightbox="icopor" title="Icopor (poliuretano expandido) como desecho post industrial o post consumo.">
                             <img src="img/thumbnails/09_icopor/thumbnail.jpg" alt="foto1" />
                         </a>
-                        
+
                         <span class="subtitle3">PRODUCTOS FABRICADOS CON ICOPOR RECICLADO</span>
                         <br>
                         <span class="subtitle4">ENVÉS</span>
@@ -254,7 +257,7 @@ Carpas de camión Bavaria.">
 				<a id="loadimages10"  class="example-image-link " href="" data-lightbox="neumatico" title="Neumático de camión desechado">
 				    <img src="img/thumbnails/10_recuperacion_neumatico/thumbnail.jpg" alt="foto1" />
 				</a>
-                        
+
             <span class="subtitle3">PRODUCTOS DE NEUMÁTICO REUTILIZADO</span>
             <br>
             <span class="subtitle4">ENVÉS</span>
@@ -278,17 +281,17 @@ Carpas de camión Bavaria.">
 
 
 
-            
+
     </div>
     </div>
      <?php include_once 'includes/footer.php';?>
-     
-     
-	 
+
+
+
 </body>
 <script src="javascripts/enves.min.js"></script>
     <script>
-	    
+
         $(document).ready(function() {
             $('.bxslider').bxSlider({
                 mode: 'fade',
@@ -319,7 +322,7 @@ Carpas de camión Bavaria.">
         });
     </script>
     <script type='text/javascript'>
-        //<![CDATA[ 
+        //<![CDATA[
         $(window).load(function() {
             $('.scroll_item').on('click', function() {
                 var elem = $('#' + $(this).data('page')),

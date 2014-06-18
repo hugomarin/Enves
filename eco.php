@@ -13,16 +13,19 @@
     <!-- <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
     <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href="stylesheets/lightbox.css" rel="stylesheet" />
     <script src="javascripts/modernizr.foundation.js"></script>
 
-    
+
 
 <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 </head>
-    
+
 <body>
     <div id="scroll">
         <div data-page="first" class="scroll_item">&nbsp;</div>
@@ -536,8 +539,8 @@ $(document).ready(function(){
    pause: 5500,
   randomStart: true,
   speed: 900,
- 
-  
+
+
   });
 });
 
@@ -546,14 +549,14 @@ $(document).ready(function(){
 
 </script>
 
-  <script type='text/javascript'>//<![CDATA[ 
+  <script type='text/javascript'>//<![CDATA[
 $(window).load(function(){
 $('.scroll_item').on('click', function() {
     var elem   = $('#' + $(this).data('page')),
         scroll = elem.offset().top;
-    
+
     $('body, html').animate({scrollTop : scroll}, 500);
-    
+
     $(this).addClass('scroll_item_active')
            .siblings('.scroll_item_active')
            .removeClass('scroll_item_active');
@@ -562,7 +565,7 @@ $('.scroll_item').on('click', function() {
 $(window).on('scroll', function(e) {
     var elems    = $('#first, #second, #third, #fourth, #fifth, #sixth, #seventh'),
         scrolled = $(this).scrollTop();
-    
+
     var dataPage = elems.filter(function() {
         return $(this).offset().top + ($(this).height() / 2) >= scrolled;
     }).first();
@@ -571,14 +574,14 @@ $(window).on('scroll', function(e) {
                      .siblings('.scroll_item_active')
                      .removeClass('scroll_item_active');
 }).trigger('scroll');
-});//]]>  
+});//]]>
 
 </script>
-    
+
      <script>
 	$(function() {
 	$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
         var target = $(this.hash);

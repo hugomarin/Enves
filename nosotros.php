@@ -13,6 +13,9 @@
     <!-- <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
     <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/app.css">
     <script src="javascripts/modernizr.foundation.js"></script>
@@ -20,7 +23,7 @@
     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 
 </head>
-    
+
 <body>
     <div id="scroll">
         <div data-page="first" class="scroll_item">&nbsp;</div>
@@ -47,7 +50,7 @@
                 <p class="banner_p3_1">NOSOTROS</p>
             </div>
             <div class="twelve columns ">
-                <p class="banner_p_nosotros">PONEMOS EL DISEÑO AL SERVICIO DE LA SOCIEDAD, 
+                <p class="banner_p_nosotros">PONEMOS EL DISEÑO AL SERVICIO DE LA SOCIEDAD,
                     <span class="banner_p2"></span> PENSANDO EN EL <span class="banner_p2">BIEN COMÚN,<br></span>RESPETANDO PROFUNDAMENTE
                     A LAS<br>PERSONAS Y AL <span class="banner_p2">MEDIO AMBIENTE</span>
                 </p>
@@ -80,7 +83,7 @@
         <div class="row we_are ">
             <div class="three column  ">
                 <div id="sprite1_1"></div>
-                <p class="primary_p2">Somos un equipo multidisciplinar de personas que comparten la misma filosofía y compromiso hacia la 
+                <p class="primary_p2">Somos un equipo multidisciplinar de personas que comparten la misma filosofía y compromiso hacia la
                     <span class="blue">
                         <strong> sostenibilidad,</strong>
                     </span> capaces de desarrollar nuevas
@@ -160,7 +163,7 @@
         });
     </script>
     <script type='text/javascript'>
-        //<![CDATA[ 
+        //<![CDATA[
         $(window).load(function() {
             $('.scroll_item').on('click', function() {
                 var elem = $('#' + $(this).data('page')),

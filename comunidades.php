@@ -21,6 +21,9 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+  <link href="img/ico.png" rel="icon" type="image/x-icon">
+  <link href="img/ico.gif" rel="icon" type="image/gif">
   <script src="javascripts/modernizr.foundation.js"></script>
     <script src="js/placeholder.js"></script>
   <!-- jQuery library (served from Google) -->
