@@ -1,13 +1,13 @@
 /* Artfully masterminded by ZURB  */
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
 :: Page Name 1
 :: Page Name 2
 */
- @font-face {
+@font-face {
     font-family: DIN-Light;
     src: url(../fonts/DINL____.TTF);
 }
@@ -37,10 +37,10 @@
 }
 /* -----------------------------------------
    Shared Styles
------------------------------------------ */
+   ----------------------------------------- */
 
- 
- .view_more {
+
+   .view_more {
     margin-bottom:20px;
 }
 .button3 {
@@ -561,7 +561,7 @@
 }
 .border_left {
     background: url(../img/back_left.png) no-repeat left 174px;
-    
+
     min-height: 468px;
 }
 .grid_gallery, .grid_gallery2 {
@@ -701,8 +701,8 @@
 .light-1 {
     width: 100%;
     background-image: url(../img/back_light.png);
-	 background-repeat: repeat;
-	 background-size: 120px 120px;
+    background-repeat: repeat;
+    background-size: 120px 120px;
 }
 
 .medium {
@@ -1303,8 +1303,8 @@ input, textarea {
 }
 /* -----------------------------------------
    Page Name 1
------------------------------------------ */
- .banner {
+   ----------------------------------------- */
+   .banner {
     position: relative;
     overflow: auto;
 }
@@ -1316,8 +1316,8 @@ input, textarea {
 }
 /* -----------------------------------------
    Page Name 2
------------------------------------------ */
- .gallery_grey_container {
+   ----------------------------------------- */
+   .gallery_grey_container {
     width: 100%;
     max-width: inherit;
     overflow: hidden;
@@ -1326,7 +1326,7 @@ input, textarea {
 }
 .gallery_grey_container img {
     width: 100%;
-    
+
 }
 .gallery_grey_containerbg {
     width: 100%;
@@ -1365,12 +1365,12 @@ input, textarea {
     display:none;
 }
 /* This is so that the 2nd thumbnail in each row fits snugly. You will want to add a similar
-           class to the last thumbnail in each row to get rid of the margin-right. */
- .no-margin {
+class to the last thumbnail in each row to get rid of the margin-right. */
+.no-margin {
     margin-right: 0;
 }
 /* --- Link configuration that contains the image and label ----------------------------- */
- .viewport a {
+.viewport a {
     display: block;
     position: relative;
 }
@@ -1383,7 +1383,7 @@ input, textarea {
     max-width:370px !important;
 }
 /* --- Label configuration -------------------------------------------------------------- */
- .viewport a span {
+.viewport a span {
     display: none;
     font-weight: bold;
     height: 100%;
@@ -1399,7 +1399,7 @@ input, textarea {
     font-weight: normal;
 }
 /* --- Dark hover background ------------------------------------------------------------ */
- .dark-background {
+.dark-background {
     color: #fff;
     text-shadow: #000 0px 0px 20px;
     font-family:"DIN-Regular", sans-serif;
@@ -1481,7 +1481,7 @@ a {
     width: 170px;
     display: block;
     background: url(../img/sprite_footer.png) left -17px no-repeat;
-	 background-size: 221px;
+    background-size: 221px;
 }
 #center_footer {
     width: 787px;
@@ -1636,7 +1636,7 @@ a {
 }
 .blue_menu_container {
     background-color: #00A9FF;
-	font-family:"DIN-MediumAlternate", sans-serif;
+    font-family:"DIN-MediumAlternate", sans-serif;
     width: 100%;
     overflow:hidden;
     z-index:999;
@@ -1736,26 +1736,31 @@ a {
 }
 
 .top-margin-100 {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 
 .canv{
 
-position: absolute;
-top: 0px;
-left: 0px;
-z-index: 10;
-max-width: none !important;
-display: block;
-width:133%
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    max-width: none !important;
+    display: block;
+    width:133%
 
 }
 
 
 
 .grey_first_row, .grey_second_row, .grey_third_row, .grey_fourth_row, .grey_fifth_row, .grey_sixth_row{
-	display:block; overflow:hidden;} 
+    display:block; overflow:hidden;}
 
 .overlayed{
-	overflow:hidden;}
+  overflow:hidden;
+}
+
+.eje-img {
+margin: 20px 0 60px 0;
+}
