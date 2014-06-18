@@ -1,97 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<tracking-metadata version="1.0" xmlns="http://breeze.macromedia.com/ns/tracking-metadata" generator="Adobe Captivate 7">
-<objective id="Haciendo lo correcto" passing-score="80" min-score="0" max-score="100">
-<name>Cuestionario Haciendo lo correcto</name>
-<interactions>
-<interaction id="Haciendo_lo_correcto11830" type="choice" correct-response="4">
-<name>Opción múltiple</name>
-<title>Los factores determinantes en la forma de hacer las cosas en Kimberly Clark están sustentadas en sólidas bases de:</title>
-<responses>
-<response id="1">Ética y cumplimiento.</response>
-<response id="2">Código de conducta y hacer lo correcto</response>
-<response id="3">Política de control interno corporativo</response>
-<response id="4">  Todas las anteriores </response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1025621" type="choice" correct-response="D">
-<name>Opción múltiple</name>
-<title>Hacer lo correcto es:</title>
-<responses>
-<response id="A">“Hacer lo correcto” es parte de nuestra cultura y de la manera como trabajamos en Kimberly Clark</response>
-<response id="B">“Hacer lo correcto” es sólo responsabiidad de nuestros departamentos legales y de cumplimiento como parte de un legado de excelencia!!!</response>
-<response id="C">“Hacer lo correcto” hace parte de cada uno de nosotros, en la forma en como actuamos a diario</response>
-<response id="D">   A y C son correctas</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correcto12197" type="true-false" correct-response="1">
-<name>Verdadero / Falso</name>
-<title>El código de conducta de Kimberly Clark proporciona una guía valiosa para tratar con los clientes, proveedores, empleados, competidores y el público con intgridad y de manera ética y apropiada.</title>
-<responses>
-<response id="1">Verdadero</response>
-<response id="2">Falso</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1025869" type="true-false" correct-response="1">
-<name>Verdadero / Falso</name>
-<title>El objetivo de este protocolo es establecer los estándares para la definición de la forma correcta de llevar a cabo las transacciones comerciales</title>
-<responses>
-<response id="1">Verdadero</response>
-<response id="2">Falso</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1026092" type="true-false" correct-response="1">
-<name>Verdadero / Falso</name>
-<title>El precio es determinado por las categorías y no puede ser modificado sin previa autorización de las instancias correspondientes?</title>
-<responses>
-<response id="1">Verdadero</response>
-<response id="2">Falso</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1026323" type="choice" correct-response="4">
-<name>Opción múltiple</name>
-<title>Las principales responsabilidades de la fuerza comercial son:A. Compromiso y objetivos comercialesB. Información veras y clientes correctosC. Rotación de venta en los clientes y nivel de inventariosD. Ejecución del manual de ciclo y legalización y soporte de las actividadesE. Co-Administrar la Cartera y Construir y Mantener confianza en nuestros clientes</title>
-<responses>
-<response id="1">Solo A, E y C son correctas</response>
-<response id="2">Solo B, C y E son correctas</response>
-<response id="3">Ninguna es correcta</response>
-<response id="4">  Todas las anteriores </response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1026579" type="choice" correct-response="3">
-<name>Opción múltiple</name>
-<title>Kimberly Clark Colombia acepta:A. Devoluciones de mercancía en mal estado, obsoletas y o descontinuadas. Las excepciones, deberán ser autorizadas por la    Gerencia General mediante el proceso de Workflow.B. Envío del producto antes de la fecha de envío solicitado sin el consentimiento del clienteC. Envío de productos a clientes que no fueron ordenadosD. Ponerse de acuerdo para entregar las mercancías, pero aplazar la extensión de los términos de cartera sin previa autorizaciónE. Acordar la recogida de productos por fuera de la polítca de devolución para volver a inducir compra</title>
-<responses>
-<response id="1">Solo A, B y C son aceptadas</response>
-<response id="2">Solo A, B y E son aceptadas</response>
-<response id="3">Ninguna es aceptada</response>
-<response id="4">  Todas son aceptadas</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1026835" type="choice" correct-response="3">
-<name>Opción múltiple</name>
-<title>La “Carta de Actividades Promocionales” tiene como objetivo controlar el presupuesto asignado por Marketing a través del manual de ciclo y generar constancia de las negociaciones realizadas con el cliente (Marca con una X la respuesta que consideres correcta a esta afirmación).</title>
-<responses>
-<response id="1">La carta de actividades no controla el presupuesto</response>
-<response id="2">La carta de actividades si controla el presupuesto pero este no es asignado por Marketing</response>
-<response id="3">La carta de actividades controla el presupuesto autorizado y confirma las negociaciones con el cliente</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correctoHaciendo_lo_correcto1027083" type="true-false" correct-response="2">
-<name>Verdadero / Falso</name>
-<title>La compañía autoriza otorgar descuento financiero en tiempo y porcentaje, que no estén autorizados por el área financiera, baj la premisa general del descuento del 1,5% a 15 días de pago neto a 30 días fecha recibo de factura?</title>
-<responses>
-<response id="1">Verdadero</response>
-<response id="2">Falso</response>
-</responses>
-</interaction>
-<interaction id="Haciendo_lo_correcto14264" type="choice" correct-response="B">
-<name>Opción múltiple</name>
-<title>Ejemplo: Miguel Clark es un lider de canal de kimberly, en su visita al cliente “Vamos Colombia” ha ofrecido el portafolio de productos de la Compañía, en conjunto han verificado los precios y condiciones y las actividades autorizadas por la Compañía. El cliente solicita el 1,5% por pago a 15 días y para mayor seguridad solicita a Charly recoger el efectivo y dejar un recibo de caja el día del pago.</title>
-<responses>
-<response id="A">Considera que los términos de esta negociación son normales  </response>
-<response id="B">Consideras que Miguel debe replantearlos      </response>
-</responses>
-</interaction>
-</interactions>
-</objective>
-</tracking-metadata>
