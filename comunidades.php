@@ -12,17 +12,17 @@
   <meta name="viewport" content="width=device-width" />
 
 <title>ENVÉS: Diseño Sostenible</title>
-  
+
   <!-- Included CSS Files (Uncompressed) -->
   <!--
   <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
-  
+
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="stylesheets/foundation.min.css">
   <link rel="stylesheet" href="stylesheets/app.css">
   <script src="javascripts/modernizr.foundation.js"></script>
-    <script src="js/placeholder.js"></script>   
+    <script src="js/placeholder.js"></script>
   <!-- jQuery library (served from Google) -->
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.hoverizr.js"></script>
@@ -45,10 +45,10 @@
 <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 
 
-    
-  
 
-</head>    
+
+
+</head>
 <body>
     <div id="scroll">
         <div data-page="first" class="scroll_item">&nbsp;</div>
@@ -149,10 +149,10 @@
             <div class="grey_third_row">
                 <div class="grey_25 bwWrapper  " id="second">
                     <img     style="margin-bottom:7px"  src="img/comunidades/comunidades8-1.jpg" width="100%" height="100%" alt="" />
-                    
+
                      <img  src="img/comunidades/comunidades8-2.jpg" width="100%" height="100%" alt="" />
-                    
-                
+
+
                 </div>
                 <div class="grey_25 bwWrapper ">
                     <img src="img/comunidades/comunidades9.jpg" width="100%" height="100%" alt="" />
@@ -204,7 +204,7 @@
 </body>
 
 
- 
+
 
 <script>
 $(document).ready(function(){
@@ -214,22 +214,22 @@ $(document).ready(function(){
    pause: 5500,
   randomStart: true,
   speed: 900,
- 
-  
+
+
   });
 });
 
 </script>
 
 
-  <script type='text/javascript'>//<![CDATA[ 
+  <script type='text/javascript'>//<![CDATA[
 $(document).ready(function(){
 $('.scroll_item').on('click', function() {
     var elem   = $('#' + $(this).data('page')),
         scroll = elem.offset().top;
-    
+
     $('body, html').animate({scrollTop : scroll}, 500);
-    
+
     $(this).addClass('scroll_item_active')
            .siblings('.scroll_item_active')
            .removeClass('scroll_item_active');
@@ -238,7 +238,7 @@ $('.scroll_item').on('click', function() {
 $(window).on('scroll', function(e) {
     var elems    = $('#first, #second, #third, #fourth'),
         scrolled = $(this).scrollTop();
-    
+
     var dataPage = elems.filter(function() {
         return $(this).offset().top + ($(this).height() / 2) >= scrolled;
     }).first();
@@ -247,15 +247,15 @@ $(window).on('scroll', function(e) {
                      .siblings('.scroll_item_active')
                      .removeClass('scroll_item_active');
 }).trigger('scroll');
-});//]]>  
+});//]]>
 
 </script>
-    
-    
+
+
      <script>
 	$(function() {
 	$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
         var target = $(this.hash);
@@ -270,6 +270,6 @@ $(window).on('scroll', function(e) {
 });
 	});
 	</script>
-    
+
 
 </html>
