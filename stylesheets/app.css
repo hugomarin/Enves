@@ -246,7 +246,7 @@
 .button_center3 {
     text-align: center;
     padding-bottom: 0px;
-    margin-top: 86px;
+    margin-top: 0px;
 }
 
 .button_center4 {
@@ -333,7 +333,7 @@
     z-index: 200;
 }
 .banner5_content {
-    padding-top: 183px;
+    padding-top: 145px;
     position: relative;
     z-index: 200;
 }
@@ -507,7 +507,7 @@
     margin-top: 28px;
     font-family:"DIN-RegularAlternate", sans-serif;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     text-transform:uppercase;
 }
 .banner_p4_productos {
@@ -1749,10 +1749,7 @@ a {
     max-width: none !important;
     display: block;
     width:133%
-
 }
-
-
 
 .grey_first_row, .grey_second_row, .grey_third_row, .grey_fourth_row, .grey_fifth_row, .grey_sixth_row{
     display:block; overflow:hidden;}
@@ -1765,11 +1762,21 @@ a {
     margin-bottom: .5em;
 }
 
-
-
-
-
-
 .eje-img {
 margin: 20px 0 60px 0;
 }
+
+.new:before {
+content: "";
+background-image: url(../img/new.png);
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 9999;
+width: 61px;
+height: 61px;
+background-size: 61px 61px;
+background-repeat: no-repeat;
+}
+
