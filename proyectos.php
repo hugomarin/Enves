@@ -5,7 +5,7 @@
 	<![endif]-->
 	<!--[if gt IE 8]>
 		<!-->
-		<html class="no-js" lang="en">
+		<html class="no-js" lang="es">
 		<!--<![endif]-->
 
 		<head>
@@ -24,6 +24,21 @@
 			<link href="stylesheets/lightbox.css" rel="stylesheet" />
 			<link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 			<script src="javascripts/modernizr.foundation.js"></script>
+
+			<script src="js/jquery-1.10.2.min.js"></script>
+			<script src="js/lightbox-2.6.min.js"></script>
+			<script src="js/jquery.bxslider.min.js"></script>
+			<!--<script src="js/bjqs-1.3.min.js"></script>-->
+			<!--<script src="js/flowtype.js"></script>-->
+			<script src="js/galerias.js"></script>
+
+
+			<!--<script src="js/jquery.mixitup.min.js"></script>-->
+			<!--<script src="js/jquery.nivo.slider.js"></script>-->
+			<!--<script src="js/jquery.slides.min.js"></script>-->
+
+			<!--<script src="js/placeholder.js"></script>-->
+			<!--<script src="js/slider.js"></script>-->
 		</head>
 
 		<body>
@@ -116,7 +131,7 @@
 					<div class="row ">
 						<div class="four columns">
 							<div class="element_gallery_container">
-								<a id="loadimages54" class="example-image-link " href="" data-lightbox="guardianes" title="Recuperación de residuos">
+								<a id="loadimages100" class="example-image-link " href="" data-lightbox="guardianes" title="Recuperación de residuos">
 									<img src="img/thumbnails/12_hunter_douglas/thumbnail.jpg" alt="foto1" />
 								</a>
 								<div id="images"></div>
@@ -273,7 +288,7 @@
 
 			<?php include_once 'includes/footer.php';?>
 		</body>
-		<script src="javascripts/enves.min.js"></script>
+<!-- <script src="javascripts/enves.min.js"></script> -->
 		<script>
 			$(document).ready(function() {
 				$('.bxslider').bxSlider({

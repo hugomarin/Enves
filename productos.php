@@ -22,6 +22,31 @@
     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
     <script src="javascripts/modernizr.foundation.js"></script>
 
+    <!-- Included CSS Files (Compressed) -->
+    <link href="img/ico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/ico.png" rel="icon" type="image/x-icon">
+    <link href="img/ico.gif" rel="icon" type="image/gif">
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <link href="stylesheets/lightbox.css" rel="stylesheet" />
+    <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
+    <script src="javascripts/modernizr.foundation.js"></script>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!--<script src="js/bjqs-1.3.min.js"></script>-->
+    <!--<script src="js/flowtype.js"></script>-->
+    <script src="js/galerias.js"></script>
+
+
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!--<script src="js/jquery.nivo.slider.js"></script>-->
+    <!--<script src="js/jquery.slides.min.js"></script>-->
+
+    <!--<script src="js/placeholder.js"></script>-->
+    <!--<script src="js/slider.js"></script>-->
+
 
 
 </head>
@@ -233,7 +258,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages19" lass="example-image-link " href="" data-lightbox="ipadsin" title="Estuche ipad sintético">
+                    <a id="loadimages19" lass="example-image-link " href="" data-lightbox="ipadsin-gal-19" title="Estuche ipad sintético">
                         <img src="img/productos/todos/estuche_ipad_sintetico/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -248,7 +273,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages20" class="example-image-link " href="" data-lightbox="viajero" title="Estuche viajero sintético">
+                    <a id="loadimages20" class="example-image-link" href="" data-lightbox="viajero-gal-20" title="Estuche viajero sintético">
                         <img src="img/productos/todos/estuche_viajero_sintetico/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -1003,7 +1028,7 @@
 </body>
 
 
-<script src="javascripts/enves.min.js"></script>
+<!-- <script src="javascripts/enves.min.js"></script> -->
 
     <script>
         $(document).ready(function() {
