@@ -64,7 +64,28 @@
     </div>
 
 
-    <?php include_once 'includes/header.php';?>
+    <div class="main_menu">
+        <div id="content_menu">
+         <div id="menu_logo"><a href="index.php">enves</a></div>
+           <div id="gallery_six"><a href="index.php#anchor_portafolio_home2">enves</a></div>
+                <div id="menu_items_container">
+                    <ul>
+                        <li><a href="nosotros.php" class="main_section_active" >NOSOTROS</a></li>
+                        <li><a href="proyectos.php">PROYECTOS</a></li>
+                        <li><a href="productos.php" class="main_menu_active ">PRODUCTOS</a></li>
+                        <li><a href="eco.php">ECO-IMPRESIÓN</a></li>
+                        <li><a href="comunidades.php">COMUNIDADES</a></li>
+                        <li><a href="noticias.php"> NOTICIAS</a></li>
+                        <li><a href="contacto.php">CONTACTO</a></li>
+                    </ul>
+                </div>
+            <div id="menu_right_items">
+                <div id="b_menu"><a href="http://www.sistemab.org" target="_blank">b_menu</a></div>
+                <div id="facebook_menu"><a href="https://www.facebook.com/EnvesColombia?fref=ts" target="_blank">facebook_menu</a></div>
+            </div>
+        </div>
+    </div>
+
     <div class="banner_wrapper2">
         <ul class="bxslider">
             <li>
@@ -289,7 +310,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages20" class="example-image-link " href="" data-lightbox="viajero" title="Estuche viajero sintético">
+                    <a id="loadimages20" class="example-image-link " href="" data-lightbox="viajero-gal-20" title="Estuche viajero sintético">
                         <img src="img/productos/todos/portapasaporte/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -304,7 +325,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages20" class="example-image-link " href="" data-lightbox="viajero" title="Estuche viajero sintético">
+                    <a id="loadimages20" class="example-image-link " href="" data-lightbox="viajero-gal-20" title="Estuche viajero sintético">
                         <img src="img/productos/todos/portadocumentos/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -322,7 +343,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages42" class="example-image-link " href="" data-lightbox="portadocumentos_neumatico" title="Porta-Documentos Neumático">
+                    <a id="loadimages42" class="example-image-link " href="" data-lightbox="portadocumentos_neumatico-gal-42" title="Porta-Documentos Neumático">
                         <img src="img/productos/todos/portadocumentos_neumatico/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -338,7 +359,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages41" class="example-image-link " href="" data-lightbox="portadocumentos_iraca" title="Porta-Documentos Iraca">
+                    <a id="loadimages41" class="example-image-link " href="" data-lightbox="portadocumentos_iraca-gal-41" title="Porta-Documentos Iraca">
                         <img src="img/productos/todos/portadocumentos_iraca/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -353,7 +374,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages43" class="example-image-link " href="" data-lightbox="cartuchera_neumatico" title="Cartuchera Neumático">
+                    <a id="loadimages43" class="example-image-link " href="" data-lightbox="cartuchera_neumatico-gal-43" title="Cartuchera Neumático">
                         <img src="img/productos/todos/portalapiz/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -385,7 +406,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages49" class="example-image-link " href="" data-lightbox="sleeve_carpa_camion_o_banner" title="Sleeve carpa, camión o banner">
+                    <a id="loadimages49" class="example-image-link " href="" data-lightbox="sleeve_carpa_camion_o_banner-gal-49" title="Sleeve carpa, camión o banner">
                         <img src="img/productos/todos/sleeve_carpa_camion_o_banner/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -399,7 +420,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina confeccion tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages50" class="example-image-link " href="" data-lightbox="sleeve_sintetico" title="Sleeve Sintético">
+                    <a id="loadimages50" class="example-image-link " href="" data-lightbox="sleeve_sintetico-gal-50" title="Sleeve Sintético">
                         <img src="img/productos/todos/sleeve_sintetico/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -472,7 +493,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages48" class="example-image-link " href="" data-lightbox="shopingbag_enves" title="Shoppingbag Envés">
+                    <a id="loadimages48" class="example-image-link " href="" data-lightbox="shopingbag_enves-gal-48" title="Shoppingbag Envés">
                         <img src="img/productos/todos/shopingbag_enves/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -488,7 +509,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion hogar " id="seventh">
                 <div class="element_gallery_container">
-                    <a id="loadimages46" class="example-image-link " href="" data-lightbox="shopingbag_1" title="Shoppingbag I">
+                    <a id="loadimages46" class="example-image-link " href="" data-lightbox="shopingbag_1-gal-46" title="Shoppingbag I">
                         <img src="img/productos/todos/shopingbag_1/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -502,7 +523,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages47" class="example-image-link " href="" data-lightbox="shopingbag_eco2" title="Shoppingbag Eco II">
+                    <a id="loadimages47" class="example-image-link " href="" data-lightbox="shopingbag_eco2-gal-47" title="Shoppingbag Eco II">
                         <img src="img/productos/todos/shopingbag_eco2/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -519,7 +540,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages47" class="example-image-link " href="" data-lightbox="shopingbag_eco2" title="Shoppingbag Eco II">
+                    <a id="loadimages47" class="example-image-link " href="" data-lightbox="shopingbag_eco2-gal-48" title="Shoppingbag Eco II">
                         <img src="img/productos/todos/estuche_golf/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -534,7 +555,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion infantil hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages22" class="example-image-link " href="" data-lightbox="guardianes" title="Guardianes de los Animales">
+                    <a id="loadimages22" class="example-image-link " href="" data-lightbox="guardianes-gal-22" title="Guardianes de los Animales">
                         <img src="img/productos/todos/guardianes/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -549,7 +570,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos confeccion hogar infantil kits">
                 <div class="element_gallery_container">
-                    <a id="loadimages31" class="example-image-link " href="" data-lightbox="kit_pintura" title="Kit Pintura">
+                    <a id="loadimages31" class="example-image-link " href="" data-lightbox="kit_pintura-gal-31" title="Kit Pintura">
                         <img src="img/productos/todos/kit_pintura/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -567,7 +588,7 @@
                         <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina" id="second">
                 <div class="element_gallery_container">
-                    <a id="loadimages12" class="example-image-link " href="" data-lightbox="arbolpin1" title="Árbol Pin Sencillo">
+                    <a id="loadimages12" class="example-image-link " href="" data-lightbox="arbolpin1-gal-12" title="Árbol Pin Sencillo">
                         <img src="img/productos/oficina/arbolpin_sencillo/thumbnail.jpg" alt="foto1" />
                     </a>
                     <div id="images">
@@ -584,7 +605,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina">
                 <div class="element_gallery_container">
-                    <a id="loadimages13" class="example-image-link " href="" data-lightbox="arbolpintriple" title="Árbol pin triple">
+                    <a id="loadimages13" class="example-image-link " href="" data-lightbox="arbolpintriple-gal-13a" title="Árbol pin triple">
                         <img src="img/productos/todos/arbolpin_triple/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -601,7 +622,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages37" class="example-image-link " href="" data-lightbox="patabook" title="Patabook">
+                    <a id="loadimages37" class="example-image-link " href="" data-lightbox="patabook-gal-37" title="Patabook">
                         <img src="img/productos/todos/patabook/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -615,7 +636,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages38" class="example-image-link " href="" data-lightbox="pataflor" title="Pataflor">
+                    <a id="loadimages38" class="example-image-link " href="" data-lightbox="pataflor-gal-38" title="Pataflor">
                         <img src="img/productos/todos/pataflor/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -631,7 +652,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina plantas hogar">
                 <div class="element_gallery_container">
-                    <a id="loadimages25" class="example-image-link " href="" data-lightbox="invitro_pequeno_escritorio" title="Invitro Pequeño Escritorio">
+                    <a id="loadimages25" class="example-image-link " href="" data-lightbox="invitro_pequeno_escritorio-gal-25" title="Invitro Pequeño Escritorio">
                         <img src="img/productos/todos/invitro_pequeno_escritorio/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -646,7 +667,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina kits escritura">
                 <div class="element_gallery_container">
-                    <a id="loadimages28" class="example-image-link " href="" data-lightbox="kit_desk" title="Kit Desk">
+                    <a id="loadimages28" class="example-image-link " href="" data-lightbox="kit_desk-gal-28" title="Kit Desk">
                         <img src="img/productos/todos/kit_desk/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -662,7 +683,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages52" class="example-image-link " href="" data-lightbox="usb_madera_frijol" title="USB Madera fríjol">
+                    <a id="loadimages52" class="example-image-link " href="" data-lightbox="usb_madera_frijol-gal-52" title="USB Madera fríjol">
                         <img src="img/productos/todos/usb_madera_frijol/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -678,7 +699,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages52" class="example-image-link " href="" data-lightbox="usb_madera_frijol" title="USB Madera fríjol">
+                    <a id="loadimages52" class="example-image-link " href="" data-lightbox="usb_madera_frijol-gal-52" title="USB Madera fríjol">
                         <img src="img/productos/todos/usb_rectangulo/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -693,7 +714,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages53" class="example-image-link " href="" data-lightbox="usb_pajaro" title="USB Pájaro">
+                    <a id="loadimages53" class="example-image-link " href="" data-lightbox="usb_pajaro-gal-53" title="USB Pájaro">
                         <img src="img/productos/todos/usb_pajaro/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -709,7 +730,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina tecnologia">
                 <div class="element_gallery_container">
-                    <a id="loadimages53" class="example-image-link " href="" data-lightbox="usb_pajaro" title="USB Pájaro">
+                    <a id="loadimages53" class="example-image-link " href="" data-lightbox="usb_pajaro-gal-53" title="USB Pájaro">
                         <img src="img/productos/todos/usb_personalizada/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -727,7 +748,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina escritura">
                 <div class="element_gallery_container">
-                    <a id="loadimages15" class="example-image-link " href="" data-lightbox="cuadernos_y_libretas" title="Afiche">
+                    <a id="loadimages15" class="example-image-link " href="" data-lightbox="cuadernos_y_libretas-gal-15" title="Afiche">
                         <img src="img/productos/todos/cuadernos_y_libretas/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -777,7 +798,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos oficina escritura"  id="third">
                 <div class="element_gallery_container">
-                    <a id="loadimages16" class="example-image-link " href="" data-lightbox="esferos" title="Esferos ecológicos">
+                    <a id="loadimages16" class="example-image-link " href="" data-lightbox="esferos-gal-16" title="Esferos ecológicos">
                         <img src="img/productos/todos/esferos_ecologicos/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -894,7 +915,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos plantas hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages39" class="example-image-link " href="" data-lightbox="jardin_vertical_sencillo" title="Plant Dúo Pared">
+                    <a id="loadimages39" class="example-image-link " href="" data-lightbox="jardin_vertical_sencillo-gal-39" title="Plant Dúo Pared">
                         <img src="img/productos/todos/plant_duo_pared/thumbnail.jpg" alt="foto1" />
                     </a>
 
@@ -910,7 +931,7 @@
             <!-- INICIO CONTENEDOR PRODUCTOS-->
             <div class="four columns mix todos plantas hogar confeccion">
                 <div class="element_gallery_container">
-                    <a id="loadimages39" class="example-image-link " href="" data-lightbox="jardin_vertical_sencillo" title="Plant Dúo Pared">
+                    <a id="loadimages39" class="example-image-link " href="" data-lightbox="jardin_vertical_sencillo-gal" title="Plant Dúo Pared">
                         <img src="img/productos/todos/difusor_eucalipto/thumbnail.jpg" alt="foto1" />
                     </a>
 

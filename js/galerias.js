@@ -199,8 +199,8 @@ $(document).ready(function() {
     /*Fin del Bloque */
 
     $('#loadimages30').click(function() {
-        $('#images').load('galerias/galeria14.html', function() {
-            $('#in14').trigger('click');
+        $('#images').load('galerias/galeria30.html', function() {
+            $('#in30').trigger('click');
         });
     });
     /*Fin del Bloque */
