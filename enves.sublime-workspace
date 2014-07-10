@@ -20,9 +20,91 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n\n<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->\n<!--[if IE 8]>    <html class=\"no-js lt-ie9\" lang=\"en\"> <![endif]-->\n<!--[if gt IE 8]><!-->\n<html class=\"no-js\" lang=\"en\">\n<!--<![endif]-->\n<head>\n    <meta charset=\"utf-8\" />\n    <!-- Set the viewport width to device width for mobile -->\n    <title>ENVÉS: Diseño Sostenible</title>\n    <!-- Included CSS Files (Uncompressed) -->\n    <!-- <link rel=\"stylesheet\" href=\"stylesheets/foundation.css\">\n  -->\n    <!-- Included CSS Files (Compressed) -->\n    <link href=\"img/ico.png\" rel=\"shortcut icon\" type=\"image/x-icon\">\n    <link href=\"img/ico.png\" rel=\"icon\" type=\"image/x-icon\">\n    <link href=\"img/ico.gif\" rel=\"icon\" type=\"image/gif\">\n    <link rel=\"stylesheet\" href=\"stylesheets/foundation.min.css\">\n    <link rel=\"stylesheet\" href=\"stylesheets/app.css\">\n    <link href=\"stylesheets/lightbox.css\" rel=\"stylesheet\" />\n    <link href=\"stylesheets/jquery.bxslider.css\" rel=\"stylesheet\" />\n    <script src=\"javascripts/modernizr.foundation.js\"></script>\n\n    <!-- Included CSS Files (Compressed) -->\n    <link href=\"img/ico.png\" rel=\"shortcut icon\" type=\"image/x-icon\">\n    <link href=\"img/ico.png\" rel=\"icon\" type=\"image/x-icon\">\n    <link href=\"img/ico.gif\" rel=\"icon\" type=\"image/gif\">\n    <link rel=\"stylesheet\" href=\"stylesheets/foundation.min.css\">\n    <link rel=\"stylesheet\" href=\"stylesheets/app.css\">\n    <link href=\"stylesheets/lightbox.css\" rel=\"stylesheet\" />\n    <link href=\"stylesheets/jquery.bxslider.css\" rel=\"stylesheet\" />\n    <script src=\"javascripts/modernizr.foundation.js\"></script>\n\n    <script src=\"js/jquery-1.10.2.min.js\"></script>\n    <script src=\"js/lightbox-2.6.min.js\"></script>\n    <script src=\"js/jquery.bxslider.min.js\"></script>\n    <!--<script src=\"js/bjqs-1.3.min.js\"></script>-->\n    <!--<script src=\"js/flowtype.js\"></script>-->\n    <script src=\"js/galerias.js\"></script>\n\n\n    <script src=\"js/jquery.mixitup.min.js\"></script>\n    <!--<script src=\"js/jquery.nivo.slider.js\"></script>-->\n    <!--<script src=\"js/jquery.slides.min.js\"></script>-->\n\n    <!--<script src=\"js/placeholder.js\"></script>-->\n    <!--<script src=\"js/slider.js\"></script>-->\n\n\n\n</head>\n\n<body>\n\n    <div id=\"scroll\">\n        <div data-page=\"first\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"second\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"third\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"fourth\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"fifth\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"sixth\" class=\"scroll_item\">&nbsp;</div>\n        <div data-page=\"seventh\" class=\"scroll_item\">&nbsp;</div>\n    </div>\n\n\n    <div class=\"main_menu\">\n        <div id=\"content_menu\">\n         <div id=\"menu_logo\"><a href=\"index.php\">enves</a></div>\n           <div id=\"gallery_six\"><a href=\"index.php#anchor_portafolio_home2\">enves</a></div>\n                <div id=\"menu_items_container\">\n                    <ul>\n                        <li><a href=\"nosotros.php\" class=\"main_section_active\" >NOSOTROS</a></li>\n                        <li><a href=\"proyectos.php\">PROYECTOS</a></li>\n                        <li><a href=\"productos.php\" class=\"main_menu_active \">PRODUCTOS</a></li>\n                        <li><a href=\"eco.php\">ECO-IMPRESIÓN</a></li>\n                        <li><a href=\"comunidades.php\">COMUNIDADES</a></li>\n                        <li><a href=\"noticias.php\"> NOTICIAS</a></li>\n                        <li><a href=\"contacto.php\">CONTACTO</a></li>\n                    </ul>\n                </div>\n            <div id=\"menu_right_items\">\n                <div id=\"b_menu\"><a href=\"http://www.sistemab.org\" target=\"_blank\">b_menu</a></div>\n                <div id=\"facebook_menu\"><a href=\"https://www.facebook.com/EnvesColombia?fref=ts\" target=\"_blank\">facebook_menu</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"banner_wrapper2\">\n        <ul class=\"bxslider\">\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/pandora.jpg\" height=\"733\" alt=\"\" />\n            </li>\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/usbs2.jpg\" height=\"733\" alt=\"\" />\n            </li>\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/portafolio-mujer-2.jpg\" height=\"733\" alt=\"\" />\n            </li>\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/neumatico.jpg\" height=\"733\" alt=\"\" />\n            </li>\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/KIT-CACTURIS-13.jpg\" height=\"733\" alt=\"\" />\n            </li>\n            <li>\n                <img class=\"banner_small\" src=\"img/banners/productos/IMG_3792.jpg\" height=\"733\" alt=\"\" />\n            </li>\n        </ul>\n    </div>\n    <div class=\"banner4 height_fixed\" id=\"first\">\n        <div class=\"row banner4_content\">\n				<div class=\"twelve columns\">\n				  <p class=\"banner_p6_1\">PRODUCTOS</p>\n				</div>\n				<div class=\"twelve columns \">\n				  <p class=\"banner_p4\">\n				      <span>PRODUCTOS CORPORATIVOS PERSONALIZADOS SOSTENIBLES, HECHOS CON MATERIALES ECOLÓGICOS O RECUPERADOS Y ELABORADOS POR COMUNIDADES.</span>\n				  </p>\n				</div>\n				<div class=\"\">\n				<div class=\"twelve columns  button_center3 \">\n				  <a href=\"#anchor_portafolio_home\" class=\"button8\">VER PRODUCTOS</a>\n				</div>\n				<div class=\"twelve columns banner_more3 \">\n				  <a href=\"#anchor_portafolio_home\">Conoce Nuestro Portafoilo</a>\n				</div>\n				</div>\n        </div>\n    </div>\n    <div class=\"dark\">\n        <div class=\"row main_dark \">\n          <div class=\"four column\">\n              <div class=\"darkbg4\"></div>\n              <div class=\"dark_text\">\n                  <p class=\"third_p\">Diseñamos\n                      <strong>productos corporativos promocionales y de mercadeo,</strong> responsables con el medio ambiente y la sociedad,\n                      <span class=\"gold\">\n                          <strong>alineados con los objetivos y estrategias</strong>\n                      </span>de su empresa u organización, elaborados por población vulnerable.</p>\n              </div>\n          </div>\n          <div class=\"four column\">\n              <div class=\"darkbg5\"></div>\n              <div class=\"dark_text\">\n                  <p class=\"third_p\">Cuidamos que los\n                      <strong class=\"gold\">procesos y materiales</strong> que usamos sean\n                      <strong>responsables con el medio ambiente.</strong>\n                  </p>\n              </div>\n          </div>\n          <div class=\"four column \" style=\"float:left;\">\n              <div class=\"darkbg6\"></div>\n              <div class=\"dark_text\">\n                  <p class=\"third_p\">Utilizamos\n                      <strong>materiales biodegradables, reutilizados, reciclables y duraderos</strong> y vigilamos que tanto los materiales como nuestros productos tengan un proceso de\n                      <span class=\"gold\">\n                          <strong>producción responsable</strong>\n                      </span>con el impacto ambiental que del mismo se derive.</p>\n              </div>\n          </div>\n        </div>\n    </div>\n   <div class=\"blue_menu_container\" id=\"getFixed\">\n        <div class=\"blue_menu\" >\n            <ul class=\"buttons\">\n                <li class=\"filter \" data-filter=\" todos\">\n                    <a>VER TODOS</a>\n                </li>\n                <li class=\"filter \" data-filter=\" oficina\">\n                    <a>OFICINA</a>\n                </li>\n                <li class=\"filter \" data-filter=\" confeccion\">\n                    <a>CONFECCIÓN</a>\n                </li>\n                <li class=\"filter \" data-filter=\"escritura\">\n                    <a>ESCRITURA</a>\n                </li>\n                <li class=\"filter \" data-filter=\"tecnologia\">\n                    <a>TECNOLOGÍA</a>\n                </li>\n                <li class=\"filter \" data-filter=\"kits\">\n                    <a>KITS</a>\n                </li>\n                <li class=\"filter \" data-filter=\"plantas\">\n                    <a>PLANTAS</a>\n                </li>\n                <li class=\"filter \" data-filter=\"personal\">\n                    <a>C.PERSONAL</a>\n                </li>\n                <li class=\"filter \" data-filter=\"infantil\">\n                    <a>INFANTILES</a>\n                </li>\n                <li class=\"filter \" data-filter=\"hogar\">\n                    <a>HOGAR</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <div class=\"medium \" id=\"Grid\">\n\n\n        <div class=\"row grid_gallery\">\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages100\" class=\"example-image-link \" href=\"\" data-lightbox=\"ipadneu-prueba\" title=\"Estuche ipad neumático\">\n                        <img src=\"img/productos/todos/estuche_ipad_neumatico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE IPAD NEUMÁTICO PRUEBA</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para el iPad o tablet, forrada en material abullonado con correa interna sale fácil y cierre de velcro, la puedes elegir en neumático recuperado y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages56\" class=\"example-image-link \" href=\"\" data-lightbox=\"ipadneu\" title=\"Estuche ipad neumático\">\n                        <img src=\"img/productos/todos/estuche_ipad_neumatico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE IPAD NEUMÁTICO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para el iPad o tablet, forrada en material abullonado con correa interna sale fácil y cierre de velcro, la puedes elegir en neumático recuperado y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages17\" class=\"example-image-link \" href=\"\" data-lightbox=\"estucheipad\" title=\"Estuche para ipad\">\n                        <img src=\"img/productos/todos/estuche_ipad_carpa_banner/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE IPAD CARPA O BANNER</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para el iPad o tablet, forrada en material abullonado con correa interna sale fácil y cierre de velcro, la puedes elegir en carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages44\" class=\"example-image-link \" href=\"\" data-lightbox=\"portafolio_mujer_carpa_banner\" title=\"Portafolio mujer carpa o baner\">\n                        <img src=\"img/productos/todos/portafolio_mujer_carpa_banner/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">MALETIN PORTATIL MUJER</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Maletín femenino para portátil de 13 o 15 pulgadas, elaborado en carpa de camión, forrado en tela impermeable con bolsillo independiente abullonado para el portátil y también bolsillos organizadores externos e internos, elaborado en carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\" id=\"sixth\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages36\" class=\"example-image-link \" href=\"\" data-lightbox=\"maletin_portatil_neumatico\" title=\"Maletín Portátil Neumático\">\n                        <img src=\"img/productos/todos/maletin_portatil_neumatico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">MALETÍN PORTÁTIL NEUMÁTICO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Sobrio y elegante maletín hecho con neumático reutilizado, con capacidad para portátiles de hasta 15\". Es impermeable y contiene varios bolsillos organizadores.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages35\" class=\"example-image-link \" href=\"\" data-lightbox=\"maletin_portatil_espejo_carta_banner\" title=\"Maletín Portátil Espejo carta banner\">\n                        <img src=\"img/productos/todos/maletin_portatil_espejo_carta_banner/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">MALETÍN PORTÁTIL CARPA O BANNER</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Maletín para portátil de 13 o 15 pulgadas, elaborado en carpa de camión, forrado en tela impermeable con bolsillo independiente abullonado para el portátil y también bolsillos organizadores externos e internos, elaborado en carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages19\" lass=\"example-image-link \" href=\"\" data-lightbox=\"ipadsin-gal-19\" title=\"Estuche ipad sintético\">\n                        <img src=\"img/productos/todos/estuche_ipad_sintetico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE IPAD OTROS MATERIALES</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para el iPad o tablet, forrada en material abullonado con correa interna sale fácil y cierre de velcro, la puedes elegir en sintético ecológico, carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages20\" class=\"example-image-link\" href=\"\" data-lightbox=\"viajero\" title=\"Estuche viajero sintético\">\n                        <img src=\"img/productos/todos/estuche_viajero_sintetico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE VIAJERO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Practico estuche para llevar lo necesario e tus viajes, con opción de fabricación en sintético ecológico, banner y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages20\" class=\"example-image-link \" href=\"\" data-lightbox=\"viajero\" title=\"Estuche viajero sintético\">\n                        <img src=\"img/productos/todos/portapasaporte/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTAPASAPORTE TECH</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Sobrio y práctico portapasaporte, diseñado pensando en tu comodidad, elaborado en material recuperado de hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages20\" class=\"example-image-link \" href=\"\" data-lightbox=\"viajero\" title=\"Estuche viajero sintético\">\n                        <img src=\"img/productos/todos/portadocumentos/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTADOCUMENTOS TECH</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Práctico portadocumentos para llevar lo necesario, elaborado en material recuperado de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages42\" class=\"example-image-link \" href=\"\" data-lightbox=\"portadocumentos_neumatico-gal-42\" title=\"Porta-Documentos Neumático\">\n                        <img src=\"img/productos/todos/portadocumentos_neumatico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTADOCUMENTOS NEUMÁTICO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Sencillo, práctico y súper durable portadocumentos de neumático.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages41\" class=\"example-image-link \" href=\"\" data-lightbox=\"portadocumentos_iraca-gal-41\" title=\"Porta-Documentos Iraca\">\n                        <img src=\"img/productos/todos/portadocumentos_iraca/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTADOCUMENTOS ARTESANAL</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Auténtico y práctico portadocumentos elaborado con tejido de palma de Iraca y cuero, manufactura artesanal colombiana.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages43\" class=\"example-image-link \" href=\"\" data-lightbox=\"cartuchera_neumatico-gal-43\" title=\"Cartuchera Neumático\">\n                        <img src=\"img/productos/todos/portalapiz/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTALÁPIZ TECH</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Sobrio y práctico portapasaporte, diseñado pensando en tu comodidad, elaborado en material recuperado de hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages43\" class=\"example-image-link \" href=\"\" data-lightbox=\"cartuchera_neumatico\" title=\"Cartuchera Neumático\">\n                        <img src=\"img/productos/todos/portaesferos/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PORTA ESFEROS TECH</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Práctico portaesferos para llevar hasta tres esferos, elaborado en material recuperado de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages49\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_carpa_camion_o_banner-gal-49\" title=\"Sleeve carpa, camión o banner\">\n                        <img src=\"img/productos/todos/sleeve_carpa_camion_o_banner/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SLEEVE CARPA O BANNER</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para portátil de cualquier tamaño, forrada en material abullonado, con cierre de velcro y elaborado en carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages50\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_sintetico-gal-50\" title=\"Sleeve Sintético\">\n                        <img src=\"img/productos/todos/sleeve_sintetico/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SLEEVE OTROS MATERIALES</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Funda para portátil de cualquier tamaño, forrada en material abullonado, con cierre de velcro y elaborado en material sintético ecológico, carpa de camión, banner, material publicitario y otros materiales recuperados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages50\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_sintetico\" title=\"Sleeve Sintético\">\n                        <img src=\"img/productos/todos/shopping_Bag_XL/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG XL CARPA O BANNER</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Gran bolso para compras, llevalo al super mercado para ahorrar muchas bolsas plásticas</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages50\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_sintetico\" title=\"Sleeve Sintético\">\n                        <img src=\"img/productos/todos/shopping_Bag_tech_0/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG TECH 0</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Bolso reutilizable, de gran duración para que ahorres muchas bolsas plásticas, además tiene una gran area imprimible, para que comuniques todo los que quieras. Elaborada con materiales combinados y reutilizados de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages50\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_sintetico\" title=\"Sleeve Sintético\">\n                        <img src=\"img/productos/todos/shopping_Bag_tech_1/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG TECH 1</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Bolso reutilizable, de gran duración para que ahorres muchas bolsas plásticas, además tiene una gran area imprimible, para que comuniques todo los que quieras. Elaborada con materiales combinados y reutilizados de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina confeccion tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages50\" class=\"example-image-link \" href=\"\" data-lightbox=\"sleeve_sintetico\" title=\"Sleeve Sintético\">\n                        <img src=\"img/productos/todos/shopping_Bag_tech_2/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG TECH 2</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Bolso reutilizable, de gran duración para que ahorres muchas bolsas plásticas, además tiene una gran area imprimible, para que comuniques todo los que quieras. Elaborada con materiales combinados y reutilizados de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages48\" class=\"example-image-link \" href=\"\" data-lightbox=\"shopingbag_enves-gal-48\" title=\"Shoppingbag Envés\">\n                        <img src=\"img/productos/todos/shopingbag_enves/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG ENVÉS</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Práctica bolsa reutilizable de gran capacidad, elaborada en tela impermeable, durable y muy resistente.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion hogar \" id=\"seventh\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages46\" class=\"example-image-link \" href=\"\" data-lightbox=\"shopingbag_1-gal-46\" title=\"Shoppingbag I\">\n                        <img src=\"img/productos/todos/shopingbag_1/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG BIO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Elaborada con algodón y Yute te damos alternativas de tamaño y marcación para que tengas una Shopping bag biodegradable y diseñada a tu medida.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages47\" class=\"example-image-link \" href=\"\" data-lightbox=\"shopingbag_eco2-gal-47\" title=\"Shoppingbag Eco II\">\n                        <img src=\"img/productos/todos/shopingbag_eco2/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">SHOPPING BAG I</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Elaborada con algodón, estampada como quieras, podemos ajustarnos al tamaño que necesites, para que tengas una Shopping bag biodegradable y diseñada a tu medida.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages47\" class=\"example-image-link \" href=\"\" data-lightbox=\"shopingbag_eco2-gal-48\" title=\"Shoppingbag Eco II\">\n                        <img src=\"img/productos/todos/estuche_golf/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESTUCHE GOLF</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Estuche para tres bolas de golf, para cargar en el cinturon o donde prefieras, elaborado con material recuperado de Hunter Douglas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion infantil hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages22\" class=\"example-image-link \" href=\"\" data-lightbox=\"guardianes-gal-22\" title=\"Guardianes de los Animales\">\n                        <img src=\"img/productos/todos/guardianes/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">GUARDIANES DE ANIMALES</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Queremos dar a conocer a los niños los animales que habitan en Colombia, por eso creamos la línea Guardianes de los Animales, cada animal está acompañado por una cartilla ecológica para colorear donde los niños podrán enterarse donde y como viven, que hacen, que comen y porque son especiales cada uno de los animales.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos confeccion hogar infantil kits\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages31\" class=\"example-image-link \" href=\"\" data-lightbox=\"kit_pintura-gal-31\" title=\"Kit Pintura\">\n                        <img src=\"img/productos/todos/kit_pintura/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">MONSTRO PINTURA</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Delantal para niños elaborado en material impermeable, podemos llenarlo con lápices de maderas certificadas, pegamentos ecológicos, libreticas biodegradables, temperas y demás utilices para arte y pintura, los hacemos en variedad de colores.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n\n                        <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina\" id=\"second\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages12\" class=\"example-image-link \" href=\"\" data-lightbox=\"arbolpin1-gal-12\" title=\"Árbol Pin Sencillo\">\n                        <img src=\"img/productos/oficina/arbolpin_sencillo/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n                    <div id=\"images\">\n						  </div>\n\n                    <span class=\"subtitle3\">ÁRBOL PIN</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Pisapapeles, pines para organizar y portaclips, todo en un solo elemento, elaborado en madera de bosques cultivados.</p>\n                </div>\n            </div>\n                        <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages13\" class=\"example-image-link \" href=\"\" data-lightbox=\"arbolpintriple-gal-13a\" title=\"Árbol pin triple\">\n                        <img src=\"img/productos/todos/arbolpin_triple/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n\n                    <span class=\"subtitle3\">ÁRBOL PIN TRIPLE</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">La sencillez y elegancia de la madera sumado a las multiples funciones distribuidas en tres secciones, hacen del Arbol Pin un organizador ideal para el escritorio; ademas podrás implementar tu propia campaña Happy Trees usando el sello \"Reutiliza esta hoja\"</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages37\" class=\"example-image-link \" href=\"\" data-lightbox=\"patabook-gal-37\" title=\"Patabook\">\n                        <img src=\"img/productos/todos/patabook/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PATABOOK</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">organizador de madera para libros, revistas y cuadernos, ahorra espacio, cuenta con un practico empaque y es fácil de armar.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages38\" class=\"example-image-link \" href=\"\" data-lightbox=\"pataflor-gal-38\" title=\"Pataflor\">\n                        <img src=\"img/productos/todos/pataflor/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PATAFLOR</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">organizador de madera para libros, revistas y cuadernos, ahorra espacio, cuenta con un practico empaque y es fácil de armar.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina plantas hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages25\" class=\"example-image-link \" href=\"\" data-lightbox=\"invitro_pequeno_escritorio-gal-25\" title=\"Invitro Pequeño Escritorio\">\n                        <img src=\"img/productos/todos/invitro_pequeno_escritorio/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">INVITRO GOTA ESCRITORIO </span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Decoración viva elaborada con vidrio soplado artesanal, las plantas que prefieras, tierra, piedras y/o arena, puedes elegir entre los colgantes o los que tienen base de madera.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina kits escritura\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages28\" class=\"example-image-link \" href=\"\" data-lightbox=\"kit_desk-gal-28\" title=\"Kit Desk\">\n                        <img src=\"img/productos/todos/kit_desk/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">KIT DESK</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Ideal para tu escritorio, usando este kit, lleno de elementos funcionales, tendrás un practico organizador para usarlo como quieras.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages52\" class=\"example-image-link \" href=\"\" data-lightbox=\"usb_madera_frijol-gal-52\" title=\"USB Madera fríjol\">\n                        <img src=\"img/productos/todos/usb_madera_frijol/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">USB OVALO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">memoria de 4 a 8 GB elaborada en madera de bosques cultivados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages52\" class=\"example-image-link \" href=\"\" data-lightbox=\"usb_madera_frijol-gal-52\" title=\"USB Madera fríjol\">\n                        <img src=\"img/productos/todos/usb_rectangulo/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">USB RECTÁNGULO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">memoria de 4 a 8 GB elaborada en madera de bosques cultivados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages53\" class=\"example-image-link \" href=\"\" data-lightbox=\"usb_pajaro-gal-53\" title=\"USB Pájaro\">\n                        <img src=\"img/productos/todos/usb_pajaro/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">USB PÁJARO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">memoria de 4 a 8 GB elaborada en madera de bosques cultivados.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina tecnologia\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages53\" class=\"example-image-link \" href=\"\" data-lightbox=\"usb_pajaro-gal-53\" title=\"USB Pájaro\">\n                        <img src=\"img/productos/todos/usb_personalizada/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">USB PERSONALIZADA</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Diseñamos memorias USB de 4 GB en madera de bosques cultivados, caladas y pintadas a mano, en la forma y colores que tu quieras.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina escritura\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages15\" class=\"example-image-link \" href=\"\" data-lightbox=\"cuadernos_y_libretas-gal-15\" title=\"Afiche\">\n                        <img src=\"img/productos/todos/cuadernos_y_libretas/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">CUADERNOS Y LIBRETAS</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Somos especialistas en el diseño y fabricación de libretas y cuadernos ecológicos, manejamos cualquier tipo de encuadernación (anillado, con lomo, cosida...), tenemos una amplia oferta de papeles: reciclado post consumo, bagazo de caña sin blanqueador, bagazo de caña; Todas nuestras tintas son vegetales y nuestros procesos respetan el medio ambiente.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina escritura\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages14\" class=\"example-image-link \" href=\"\" data-lightbox=\"hechoamano\" title=\"Cuadernos hechos a mano\">\n                        <img src=\"img/productos/todos/cuadernos_cosidos_a_mano/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">CUADERNOS HECHOS A MANO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Cuadernos y libretas de tapa dura forrada en materiales recuperados, elaborados por jovenes de población vulnerable, con papeles ecológicos, los puedes personalizar en tamaño, tipo de forro y diseño interior.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages51\" class=\"example-image-link \" href=\"\" data-lightbox=\"tarjetero_madera\" title=\"Tarjetero de madera\">\n                        <img src=\"img/productos/todos/tarjetero_madera/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">TARJETERO MADERA</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Elaborado en madera certificada, este tarjetero es un elemento perfecto para impactar con producto sobrio y funcional.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina escritura\"  id=\"third\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages16\" class=\"example-image-link \" href=\"\" data-lightbox=\"esferos-gal-16\" title=\"Esferos ecológicos\">\n                        <img src=\"img/productos/todos/esferos_ecologicos/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">ESFEROS ECOLÓGICOS</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Contamos con una amplia variedad de esferos ecologicos, de cartón, bambú y plasticos biodegradables, que podemos marcar como quieras, estampados o con láser. Sujetos a disponibilidad de invetario.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina escritura\"  id=\"third\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages16\" class=\"example-image-link \" href=\"\" data-lightbox=\"esferos\" title=\"Esferos ecológicos\">\n                        <img src=\"img/productos/todos/mugs/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">MUGS</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Contamos</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina infantil\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages27\" class=\"example-image-link \" href=\"\" data-lightbox=\"juego_de_ingenio\" title=\"Juego de Ingenio\">\n                        <img src=\"img/productos/todos/juego_de_ingenio/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">JUEGO DE INGENIO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Juego de ingenio, de armar y desarmar en 16 pasos, con grado de dificultad 8 del 1 al 10.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina infantil\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages45\" class=\"example-image-link \" href=\"\" data-lightbox=\"reglas_icopor_reciclado\" title=\"Reglas Icopor Reciclado\">\n                        <img src=\"img/productos/todos/reglas_icopor_reciclado/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n                    <span class=\"subtitle3\">REGLAS DE ICOPOR RECICLADO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">A partir del reciclaje del icopor (poliuretano expandido) podemos diseñarte la regla de tu preferencia, marcada como quieras.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina plantas hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages24\" class=\"example-image-link \" href=\"\" data-lightbox=\"icolgante\" title=\"Árbol pin triple\">\n                        <img src=\"img/productos/todos/invitro_pequeno_colgante/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">INVITRO COLGANTE</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Decoración viva elaborada con vidrio soplado artesanal, las plantas que prefieras, tierra, piedras y/o arena, puedes elegir entre los colgantes o los que tienen base de madera.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina plantas hogar\">\n                <div class=\"element_gallery_container\"  id=\"fourth\">\n                    <a id=\"loadimages23\" class=\"example-image-link \" href=\"\" data-lightbox=\"invitromediano\" title=\"Invitro Mediano\">\n                        <img src=\"img/productos/todos/invitro_mediano/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">INVITRO MEDIANO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Decoración viva elaborada con vidrio soplado artesanal, las plantas que prefieras, tierra, piedras y/o arena.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos plantas hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages40\" class=\"example-image-link \" href=\"\" data-lightbox=\"jardin_vertical_triple\" title=\"Jardín Vertical Triple\">\n                        <img src=\"img/productos/todos/jardin_vertical_triple/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">JARDÍN VERTICAL</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Huerto o jardín vertical, perfecto para decorar o sembrar plantas para tu consumo, elaborado usando banner, pendones, carpas, se vende con o sin plantas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos plantas hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages39\" class=\"example-image-link \" href=\"\" data-lightbox=\"jardin_vertical_sencillo-gal-39\" title=\"Plant Dúo Pared\">\n                        <img src=\"img/productos/todos/plant_duo_pared/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">PLANT DUO DE PARED</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Matera de pared para siembres lo que más te gusta, elaborado usando banner, pendones, carpas, se vende vendemos con o sin plantas.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos plantas hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages39\" class=\"example-image-link \" href=\"\" data-lightbox=\"jardin_vertical_sencillo-gal\" title=\"Plant Dúo Pared\">\n                        <img src=\"img/productos/todos/difusor_eucalipto/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">DIFUSOR DE EUCALIPTO </span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Ideal para ambientar cualquier espacio, elaborado con vidrio reciclado y aceites escenciales de eucalipto que inhalado sube las defensas, limpia vias respiratorias y ayuda en los estados gripales.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos plantas hogar confeccion\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages39\" class=\"example-image-link \" href=\"\" data-lightbox=\"jardin_vertical_sencillo\" title=\"Plant Dúo Pared\">\n                        <img src=\"img/productos/todos/reloj_arena_shower/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">RELOJ ARENA SHOWER TIME </span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Mide el tiempo en la ducha con este reloj de arena, ayuda a ahorra agua.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n                        <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina personal\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages21\" class=\"example-image-link \" href=\"\" data-lightbox=\"gel_antibacterial\" title=\"Gel Antibacterial\">\n                        <img src=\"img/productos/todos/gel_antibacterial/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n                    <span class=\"subtitle3\">GEL ANTIBACTERIAL</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Elaborado a base de Neem y algas, combate los gérmenes, gracias a la acción antibacterial del Neem y tiene propiedades de cicatrización y regeneración de tejidos.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos personal oficina\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages26\" class=\"example-image-link \" href=\"\" data-lightbox=\"jabon_liquido\" title=\"Jabón Líquido\">\n                        <img src=\"img/productos/todos/jabon_liquido/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n                    <span class=\"subtitle3\">JABÓN LÍQUIDO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">La base del jabón líquido está constituida por celulosa y Neem (cicatriza, desinfecta y reconstruye), obteniendo así un producto que cuida y protege la piel. La combinación está especialmente diseñada de manera poco abrasiva, no produce irritación ni alergias. Libre de productos tóxicos y conservantes artificiales.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos personal oficina\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages33\" class=\"example-image-link \" href=\"\" data-lightbox=\"lipstick\" title=\"Lipstick\">\n                        <img src=\"img/productos/todos/lipstick/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n                    <span class=\"subtitle3\">LIPSTICK</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Producto elaborado a base de manteca de cacao (emoliente natural), cera virgen, aceite de jojoba (vitaminas y minerales) y extracto de caléndula (cicatrizante y antiinflamatorio) que cuidan y protegen los labios. Útil en caso de infecciones y resequedad. Se absorbe rápidamente, no genera dependencia. Libre de petrolato.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos oficina kits hogar personal\" id=\"fifth\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages30\" class=\"example-image-link \" href=\"\" data-lightbox=\"kit_te_cuido\" title=\"Kit Te Cuido\">\n                        <img src=\"img/productos/todos/kit_te_cuido/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">KIT TE CUIDO</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">Cuidate y disfruta usando el suave lipstick, el confortante jabón y el refrescante gel antibactearial, todos hechos con extractos botánicos orgánicos de origen local. Los productos de este Kit se venden por separado y en distintas presentaciones.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n\n            <!-- INICIO CONTENEDOR PRODUCTOS-->\n            <div class=\"four columns mix todos tecnologia hogar\">\n                <div class=\"element_gallery_container\">\n                    <a id=\"loadimages32\" class=\"example-image-link \" href=\"\" data-lightbox=\"lampara_botella\" title=\"Lámpara Botella\">\n                        <img src=\"img/productos/todos/lampara_botella/thumbnail.jpg\" alt=\"foto1\" />\n                    </a>\n\n                    <span class=\"subtitle3\">LÁMPARA BOTELLA</span>\n                    <br>\n                    <span class=\"subtitle4\">ENVÉS</span>\n                    <p class=\"secondary_p\">La iluminación Led y la calidez del vidrio ambar unidos en un diseño sobrio y funcional, elaborada reutilizando botellas no retornables de vidrio.</p>\n                </div>\n            </div>\n            <!-- FINAL CONTENEDOR PRODUCTOS-->\n\n\n        </div>\n        <div class=\"row\">\n                <div class=\"twelve columns  button_center button_more_margin \">\n                    <a href=\"catalogo/catalogo_enves.pdf\" class=\"button3\" target=\"_blank\">DESCARGAR CATÁLOGO</a>\n                </div>\n            </div>\n        <br>\n        <br>\n    </div>\n\n    <?php include_once 'includes/footer.php';?>\n</body>\n\n\n<!-- <script src=\"javascripts/enves.min.js\"></script> -->\n\n    <script>\n        $(document).ready(function() {\n            $('.bxslider').bxSlider({\n                mode: 'fade',\n                auto: true,\n                pause: 5500,\n                randomStart: true,\n                speed: 900,\n\n\n            });\n        });\n    </script>\n    <script type=\"text/javascript\">\n        $(function() {\n\n            $('#Grid').mixitup();\n\n        });\n    </script>\n    <script>\n        $(function() {\n            $('a[href*=#]:not([href=#])').click(function() {\n                if (location.pathname.replace(/^\\//, '') == this.pathname.replace(/^\\//, '') || location.hostname == this.hostname) {\n\n                    var target = $(this.hash);\n                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');\n                    if (target.length) {\n                        $('html,body').animate({\n                            scrollTop: target.offset().top\n                        }, 1000);\n                        return false;\n                    }\n                }\n            });\n        });\n    </script>\n    <script>\n        jQuery(function($) {\n            function fixDiv() {\n                var $cache = $('#getFixed');\n                if ($(window).scrollTop() > 749)\n                    $cache.css({\n                        'position': 'fixed',\n                        'top': '59px'\n                    });\n                else\n                    $cache.css({\n                        'position': 'relative',\n                        'top': 'auto'\n                    });\n            }\n            $(window).scroll(fixDiv);\n            fixDiv();\n        });\n    </script>\n    <script>\n        $(function() {\n            $(\".buttons a\").click(function() {\n                $(this).parent().addClass('blue_menu_active'). // <li>\n                siblings().removeClass('blue_menu_active');\n            });\n        });\n    </script>\n    <script type='text/javascript'>\n        //<![CDATA[\n        $(window).load(function() {\n            $('.scroll_item').on('click', function() {\n                var elem = $('#' + $(this).data('page')),\n                    scroll = elem.offset().top;\n\n                $('body, html').animate({\n                    scrollTop: scroll\n                }, 500);\n\n                $(this).addClass('scroll_item_active')\n                    .siblings('.scroll_item_active')\n                    .removeClass('scroll_item_active');\n            });\n\n            $(window).on('scroll', function(e) {\n                var elems = $('#first, #second, #third, #fourth, #fifth, #sixth, #seventh'),\n                    scrolled = $(this).scrollTop();\n\n                var dataPage = elems.filter(function() {\n                    return $(this).offset().top + ($(this).height() / 2) >= scrolled;\n                }).first();\n\n                $('.scroll_item[data-page=\"' + dataPage.prop('id') + '\"]').addClass('scroll_item_active')\n                    .siblings('.scroll_item_active')\n                    .removeClass('scroll_item_active');\n            }).trigger('scroll');\n        }); //]]>\n    </script>\n\n\n</html>",
+			"file": "productos.php",
+			"file_size": 60372,
+			"file_write_time": 130486167580000000,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 61062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>La Hipotecaria</title>\n    <link rel=\"stylesheet\" href=\"stylesheets/app.css\" />\n    <link rel=\"stylesheet\" href=\"stylesheets/styles.css\" />\n    <link rel=\"stylesheet\" href=\"stylesheets/fontawesome/font-awesome.css\" />\n    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic,700|Varela+Round' rel='stylesheet' type='text/css'>\n    <script src=\"bower_components/modernizr/modernizr.js\"></script>\n\n    \n  </head>\n  <body>\n    <div class=\"off-canvas-wrap\" data-offcanvas>\n      <div class=\"inner-wrap\">\n\n        <!-- Off Canvas Menu -->\n        <aside class=\"left-off-canvas-menu\">\n            <!-- whatever you want goes here -->\n            <ul>\n              <li class=\"upper\">Menú principal</li>\n              <li><a href=\"#\">Préstamos hipotecarios</a></li>\n              <li><a href=\"#\">Viviendas que financiamos</a></li>\n              <li><a href=\"#\">Calculadora hipotecaria</a></li>\n              <li><a href=\"#\">Banca Privada</a></li>\n              <li><a href=\"#\">Ayuda</a></li>\n              <li class=\"upper\">Más opciones</li>\n              <li><a href=\"#\">Quienes somos</a></li>\n              <li><a href=\"#\">Contáctanos</a></li>\n              <li><a href=\"#\">Hiponet</a></li>\n              <li><a href=\"#\">Seguinet</a></li>\n              <li><a href=\"#\">Inversionistas</a></li>\n              <li class=\"upper\">País</li>\n              <li><a href=\"#\">Colombia</a></li>\n              <li><a href=\"#\">Panamá</a></li>\n              <li><a href=\"#\">El Salvador</a></li>\n            </ul>\n        </aside>\n        <aside class=\"right-off-canvas-menu\">\n            <!-- whatever you want goes here -->\n            <ul>\n              <li class=\"upper\">Buscar</li>\n              <li class=\"search\"><input type=\"text\" placeholder=\"¿Qué estas buscando?\"><a class=\"right\" href=\"#\">Buscar</a></li>\n              \n            </ul>\n        </aside>\n\n\n        <header>\n          <div class=\"row\">\n            <div class=\"large-12 columns hide-for-small\">\n              <ul class=\"utilities_nav\">\n                <li>\n                  <a class=\"active\" href=\"#\"><i class=\"fa fa-home\"></i>&nbsp;&nbsp;Inicio</a>\n                </li>\n                <li>\n                  <a href=\"#\">Quienes somos</a>\n                </li>\n                <li>\n                  <a href=\"#\">Blog</a>\n                </li>\n                <li>\n                  <a href=\"#\">Contáctenos</a>\n                </li>\n                <li class=\"tool sep\">\n                  <a href=\"#\">Hiponet</a>\n                </li>\n                <li class=\"tool\">\n                  <a href=\"#\">Seguinet</a>\n                </li>\n                <li class=\"special\">\n                  <a href=\"#\">Inversionistas</a>\n                </li>\n                <li>\n                  <span>País: </span><a href=\"#\" data-dropdown=\"drop1\">CO <i class=\"fa fa-angle-down\"></i></a>\n                    <ul id=\"drop1\" class=\"f-dropdown tiny\" data-dropdown-content>\n                      <li class=\"active\"><a href=\"#\">Colombia</a></li>\n                      <li><a href=\"#\">Panamá</a></li>\n                      <li><a href=\"#\">El Salvador</a></li>\n                    </ul>\n                </li>\n\n              </ul>\n            </div>\n\n          </div>\n          <div class=\"row\">\n            <div class=\"small-2 columns show-for-small-only menu-mobile\">\n              <a class=\"left-off-canvas-toggle menu-icon\" href=\"#\">☰</a>\n            </div>\n            <div class=\"large-3 small-7 medium-4 columns\">\n              <h1 class=\"logo left\">\n                <a href=\"index.html\">La Hipotecaria</a>\n              </h1>\n            </div>\n            <div class=\"small-2 columns show-for-small-only menu-mobile right\">\n              <a class=\"right-off-canvas-toggle menu-icon\" href=\"#\"><i class=\"fa fa-search\"></i></a>\n            </div> \n            <div class=\"large-3 medium-4 columns hide-for-small-only\">\n              <input type=\"text\" class=\"search_bar\" placeholder=\"¿Qué estas buscando?\" />\n            </div> \n          </div>\n\n          <div class=\"nav_bar\">\n            <div class=\"row relative\">\n              <div class=\"large-9 columns\">\n                <nav>\n                  <ul class=\"show-for-large-up show-for-landscape\">\n                    <li>\n                      <a href=\"#\">Préstamos hipotecarios</a>\n                    </li>\n                    <li>\n                      <a href=\"#\">Calculadora hipotecaria</a>\n                    </li>\n                    <li>\n                      <a href=\"#\">Viviendas que financiamos</a>\n                    </li>\n                    <li>\n                      <a href=\"#\">Banca privada</a>\n                    </li>\n                    <li>\n                      <a href=\"#\">Ayuda</a>\n                    </li>\n                  </ul>\n                  <ul class=\"hide-for-large-up show-for-portrait\">\n                    <li>\n                        <a class=\"left-off-canvas-toggle\" href=\"#\" >☰ Menu</a>\n                    </li>\n                  </ul>\n                </nav>\n              </div>\n              <div class=\"large-3 medium-4 columns absolute\">\n                <div class=\"main-cta\">\n                  <a class=\"button orange tiny expand radius\" href=\"#\">Inicia tu diagnóstico en línea</a>\n                  <p><span>ó llámanos </span>+571  705 1650</p>\n                </div>\n              </div>\n\n            </div>\n\n          </div>\n\n        </header>\n        \n\n        <div class=\"banner carrousel\">\n          <div class=\"bxslider\">\n            <div class=\"slide orange_bg\">\n              <div class=\"pat\"></div>\n              <div class=\"figure\"></div>\n\n              <div class=\"row\">\n                <div class=\"large-7 medium-6 columns\">\n                  <img class=\"absolute\" src=\"img/slider/foto-1.png\">\n                </div>\n                \n                <div class=\"large-5 medium-6 columns banner-c\">\n                  <h4>Diagnóstico en línea</h4>\n                  <h2>La vivienda de tus sueños está a tu alcance</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore \nmagna aliqua.</p>\n                  <a href=\"#\" class=\"big-b\">Solicitar pre aprobación ahora</a>\n\n                </div>\n                  \n              </div>\n\n              <div class=\"bg-mobile\"></div>\n            </div>\n\n            <div class=\"slide red_bg\">\n              <div class=\"pat\"></div>\n              <div class=\"figure\"></div>\n              <div class=\"row\">\n                <div class=\"large-7 medium-6 columns\">\n                  <img class=\"absolute\" src=\"img/slider/foto-1.png\">\n                </div>\n                \n                <div class=\"large-5 medium-6 columns banner-c\">\n                  <h4>Diagnóstico en línea</h4>\n                  <h2>La vivienda de tus sueños está a tu alcance</h2>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore \nmagna aliqua.</p>\n                  <a href=\"#\" class=\"big-b\">Solicitar pre aprobación ahora</a>\n\n                </div>\n                  \n              </div>\n              <div class=\"bg-mobile\"></div>\n            </div>\n          </div>\n        </div>\n\n\n\n\n      <!-- close the off-canvas menu -->\n      <a class=\"exit-off-canvas\"></a>\n\n      \n\n        <div class=\"row center\">\n          <div class=\"large-12 columns\">\n            <h3>Construye tus sueños con nosotros</h3>\n            <p>Empieza a construir tus sueños con nosotros, realiza el diagnóstico para que puedas acceder al monto que necesitas, calcula tu cuota mensual y te recomendamos algunos proyectos inmobiliarios que tenemos disponibles para ti.</p>\n          </div>\n          <div class=\"large-4 medium-4 columns\">\n            <div class=\"icon i1\"></div>\n            <h5>Diagnóstico <br>en línea</h5>\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n            <a class=\"link_text\">Iniciar diagnóstico</a>\n          </div>\n          <div class=\"large-4 medium-4 columns\">\n            <div class=\"icon i2\"></div>\n            <h5>Calcula tu <br>cuota mensual</h5>\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n            <a class=\"link_text\">Calcular crédito</a>\n          </div>\n          <div class=\"large-4 medium-4 columns\">\n            <div class=\"icon i3\"></div>\n            <h5>Proyectos de vivienda <br>que financiamos</h5>\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n            <a class=\"link_text\">Ver los proyectos</a>\n          </div>\n        </div>\n\n\n        <div class=\"grey\">\n          <div class=\"row center\">\n            <div class=\"large-12 columns\">\n              <h3>Que tus sueños se hagan realidad</h3>\n              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n            </div>\n            <div class=\"large-4 medium-4 columns\">\n              <div class=\"box\">\n                <img src=\"img/pic1.jpg\" />\n                <div class=\"padd\">\n                  <h5>Viviendas nuevas</h5>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n                  <a class=\"link_text\">Conoce los proyectos</a>\n                </div>\n              </div>\n            </div>\n            <div class=\"large-4 medium-4 columns\">\n              <div class=\"box\">\n                <img src=\"img/pic2.jpg\" />\n                <div class=\"padd\">\n                  <h5>Viviendas usadas</h5>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n                  <a class=\"link_text\">Conoce los proyectos</a>\n                </div>\n              </div>\n            </div>\n            <div class=\"large-4 medium-4 columns\">\n              <div class=\"box\">\n                <img src=\"img/pic3.jpg\" />\n                <div class=\"padd\">\n                  <h5>Refinancia tu hipoteca</h5>\n                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>\n                  <a class=\"link_text\">Ver requisitos</a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"mobile-sub-menu show-for-small-only\">\n          <div class=\"row\">\n            \n              <ul>\n                <li>\n                  <a href=\"#\">Tiene dudas</a>\n                </li>\n                <li>\n                  <a href=\"#\">Guías y Requerimientos</a>\n                </li>\n                <li>\n                  <a href=\"#\">Conoce nuestro blog</a>\n                </li>\n                <li>\n                  <a href=\"#\">Lo que opinan nuestros clientes</a>\n                </li>\n              </ul>\n            \n          </div>\n        </div>\n\n        <div class=\"row pqr\">\n          <div class=\"large-8 medium-12 columns\">\n            <div class=\"large-12 medium-8 columns hide-for-small\">\n              <h6>¿Tienes dudas? Te ayudamos a resolverlas</h6>\n              <ul>\n                <li><a href=\"#\">¿Qué proyectos financian ustedes?</a></li>\n                <li><a href=\"#\">¿Porqué financiar su hipoteca con nosotros?</a></li>\n                <li><a href=\"#\">Requisitos básicos para solicitar su crédito</a></li>\n                <li><a href=\"#\">¿Cuanto tiempo toma el desembolso de una hipoteca?</a></li>\n                <li><a href=\"#\">¿Qué exactamente cubren las pólizas de Seguros y cómo funcionan?</a></li>\n                <li><a href=\"#\">¿Cómo funcionan la tasa de interés fija y las cuotas fijas durante todo el plazo del crédito?</a></li>\n              </ul>\n              <a class=\"link_text right\">Más preguntas frecuentes</a>\n            </div>\n            <div class=\"large-12 medium-4 columns show-for-large-up\">\n              <div class=\"divider\"></div>\n            </div>\n            <div class=\"large-12 medium-4 columns hide-for-small\">\n              <h6>Guías y requerimientos</h6>\n              <ul>\n                <li><a href=\"#\">Conoce nuestras guías hipotecarias.</a></li>\n                <li><a href=\"#\">Requerimientos para comprar vivienda.</a></li>\n                <li><a href=\"#\">Requerimientos para refinanciar viviendas.</a></li>\n              </ul>\n              <a class=\"link_text right\">Más guías y requerimientos</a>\n            </div>\n            <div class=\"large-12 columns\">\n              <div class=\"divider hide-for-small\"></div>\n            </div>\n            <div class=\"large-12 medium-12 columns hide-for-small\">\n              <h6>Últimas noticias</h6>\n              <ul class=\"no-margin\">\n                <div class=\"row noti-w\">\n                  <li>\n                    <div class=\"large-3 medium-3 columns\">\n                      <div class=\"row\">\n                        <img src=\"img/noti1.jpg\">\n                      </div>\n                    </div>\n                    <div class=\"large-9 medium-9 columns\">\n                      <p class=\"date\">Mayo 12, 1992</p>\n                      <h4 class=\"n-title\">Visitas empresariales</h4>\n                      <p class=\"n-intro\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>\n                      <a href=\"#\" class=\"link-text red\">Ver más</a>\n                    </div>\n                  </li>\n                </div>\n                <div class=\"row noti-w\">\n                  <li>\n                    <div class=\"large-3 medium-3 columns\">\n                      <div class=\"row\">\n                        <img src=\"img/noti1.jpg\">\n                      </div>\n                    </div>\n                    <div class=\"large-9 medium-9 columns\">\n                      <p class=\"date\">Mayo 12, 1992</p>\n                      <h4 class=\"n-title\">Feria en el instituto de cancerología</h4>\n                      <p class=\"n-intro\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>\n                      <a href=\"#\" class=\"link-text red\">Ver más</a>\n                    </div>\n                  </li>\n                </div>\n                <div class=\"row noti-w\">\n                  <li>\n                    <div class=\"large-3 medium-3 columns\">\n                      <div class=\"row\">\n                        <img src=\"img/noti1.jpg\">\n                      </div>\n                    </div>\n                    <div class=\"large-9 medium-9 columns\">\n                      <p class=\"date\">Mayo 12, 1992</p>\n                      <h4 class=\"n-title\">Relanzamiento Nueva Etapa Américas</h4>\n                      <p class=\"n-intro\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>\n                      <a href=\"#\" class=\"link-text red\">Ver más</a>\n                    </div>\n                  </li>\n                </div>\n              </ul>\n              <a href=\"#\" class=\"link_text right\">Visita nuestro blog</a>\n\n            </div> \n          </div>\n          <div class=\"large-12 columns hide-for-large-up hide-for-landscape\">\n              <div class=\"divider hide-for-small\"></div>\n            </div>\n          <div class=\"large-4 medium-12 columns\">\n            <div class=\"\">\n              <h6 class=\"small-h6 hide-for-small\">Lo que opinan nuestros clientes</h6>\n              <div class=\"row\">\n                <div class=\"large-12 medium-6 columns hide-for-small\">\n                  <cite>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi”</cite>\n                  <img src=\"img/user1.jpg\" class=\"user-pic left\" /><span class=\"name\">Andrea Martínez</span><span>Colombia</span>\n                </div>\n               \n                <div class=\"large-12 medium-6 columns show-for-medium-only\">\n                  <cite>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</cite>\n                  <img src=\"img/user2.jpg\" class=\"user-pic left\" /><span class=\"name\">Andrea Martínez</span><span>Colombia</span>\n                </div>\n              </div>\n              <a href=\"#\" class=\"link_text right hide-for-small\">Conoce más testimonios</a>\n              <div class=\"row\">\n                <div class=\"large-12 columns\">\n                  <div class=\"cta-l banca medium-text-center large-text-left\">\n                    <div class=\"pat\"></div>\n                    <div class=\"figure\"></div>\n                    <h4>Te interesa abrir una cuenta</h4>\n                    <p>Descubre los productos financieros que hemos diseñado para ti.</p>\n                    <a href=\"#\" class=\"\">Ir a la banca</a>\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              <div class=\"large-12 columns\">\n                <div class=\"cta-l pre-a medium-text-center large-text-left\">\n                  <div class=\"pat\"></div>\n                  <div class=\"figure\"></div>\n                  <h4>Pre aprobación de su crédito en pocos pasos</h4>\n                  <p>Podrá obtener toda la información que requiera acerca de nuestros productos financieros.</p>\n                  <a href=\"#\" class=\"\">Solicitar pre aprobación</a>\n                </div>\n              </div>\n            </div>\n            <div class=\"row\">\n              \n              <div class=\"large-12 columns cta-contact\">\n                <div class=\"cta-head medium-text-center large-text-left\">\n                  <h3>Solicita tu crédito</h3>\n                  <p>Ponte en contacto con nosotros</p>\n                </div>\n                <div class=\"row\">\n                  <div class=\"large-12 columns\">\n                    <div class=\"row border-wrap no-margin\">\n                      <div class=\"large-12 medium-4 columns\">\n                        <div class=\"cp-wrap\">\n                          <h4><i class=\"fa fa-phone\"></i>&nbsp;Llamar a un asesor</h4>\n                          <p class=\"tel\"><span>+571</span> 705 1650</p>\n                          <span>De lunes a viernes de 8:00am a 6:00pm</span>\n                        </div>\n                      </div>\n                      <div class=\"large-12 medium-4 columns\">\n                        <div class=\"cp-wrap\">\n                          <h4><i class=\"fa fa-comments\"></i>&nbsp;Chatea con un asesor</h4>\n                          <span>Inicia el chat <a href=\"\">aquí</a></span>\n                        </div>\n                      </div>\n                      <div class=\"large-12 medium-4 columns\">\n                        <div class=\"cp-wrap\">\n                          <h4><i class=\"fa fa-map-marker\"></i>Visita nuestras oficinas</h4>\n                          <span class=\"upper\">Oficina principal</span>\n                          <p class=\"address\">Carrera 13 No. 93-40 Oficina 210</p>\n                          <span class=\"place\">Bogotá, Colombia</span>\n                          <span>Conoce otros puntos <a href=\"\">aquí</a></span>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>  \n              </div>\n\n              <div class=\"large-12 columns cta-contact\">\n                <div class=\"row\">\n                  <div class=\"large-12 columns\">\n                    <div class=\"row medium-text-center large-text-left\">\n                      \n                      <div class=\"large-12 medium-12 columns\">\n                        <div class=\"cp-wrap news\">\n                          <h4><i class=\"fa fa-envelope\"></i>&nbsp;¿Quieres estar en contacto?</h4>\n                          <p class=\"p-reg\">Regístrate ahora y recibe información actualizada y promociones de vivienda.</p>\n                          <div class=\"row collapse\">\n                            <div class=\"large-10 medium-10 small-10 columns\">\n                              <input type=\"text\" placeholder=\"Escribe tu correo electrónico\" />\n                            </div>\n                            <div class=\"large-2 medium-2 small-2 columns\">\n                              <a class=\"postfix orange\"><i class=\"fa fa-angle-right\"></i></a>\n                            </div>\n                          </div>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>  \n              </div>\n\n            </div>\n\n          </div>\n        </div>\n\n        <footer>\n          <div class=\"row\">\n            <div class=\"large-3 medium-3 columns\">\n              <h2>\n                <a href=\"index.html\">La Hipotecaria Compañía de Financiamiento S.A.</a>\n              </h2>\n            </div>\n            <div class=\"large-9 medium-9 columns\">\n              <nav class=\"footer_nav right\">\n                <ul>\n                  <li><a href=\"#\">Inversionistas</a></li>\n                  <li><a href=\"#\">Plan de referidos</a></li>\n                  <li><a href=\"#\">Testimonios</a></li>\n                  <li><a href=\"#\">Trabaje con nosotros</a></li>\n                </ul>\n              </nav>\n            </div>\n          </div>\n          <div class=\"row legal\">\n            <div class=\"large-8 medium-8 columns\">\n              <h3>La Hipotecaria Compañía de Financiamiento S.A.</h3>\n              <p>Sede Principal: Carrera 13 No. 93 -40 Oficina 210. Conmutador: (1) 7051650 Bogotá Colombia. Horario de atención: lunes a viernes entre las 8:00 am y las 5:00 pm y Sábados entre las 9:00am y 12md</p>\n            </div>\n            <div class=\"large-4 medium-4 columns\">\n              \n                <div class=\"large-12 logos-legal\"></div>\n            \n            </div>\n          </div>\n          <div class=\"row\">\n            <div class=\"large-12 columns\">\n              <span class=\"legal-text\">Entidad Vigilada por la Superintendencia Financiera de Colombia. <a href=\"#\">Preguntas frecuentes</a> | <a href=\"#\">Términos de Uso</a> | <a href=\"#\">Mapa del Sitio</a></span>\n            </div>\n          </div>\n        </footer>\n\n\n\n\n      </div>\n    </div>\n     \n    <script src=\"bower_components/jquery/dist/jquery.min.js\"></script>\n    <script src=\"bower_components/foundation/js/foundation.min.js\"></script>\n    <script src=\"js/app.js\"></script>\n    <script>$(document).foundation();</script>\n    <!--[if IE 8]>\n      <script src=\"http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js\"></script>\n      <script src=\"http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js\"></script>\n      <script src=\"http://html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js\"></script>\n      <script src=\"http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js\"></script>\n    <![endif]-->\n    <script src=\"js/jquery.bxslider.min.js\"></script>\n    <script type=\"text/javascript\">\n      $(document).ready(function(){\n        $('.bxslider').bxSlider(\n        );\n      });\n    </script>\n    <script type=\"text/javascript\" src=\"https://github.com/chuckcarpenter/REM-unit-polyfill\"></script>\n\n  </body>\n</html>\n",
+			"settings":
+			{
+				"buffer_size": 23957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$(document).ready(function() {\n\n    //PROYECTOS\n\n    /* Un bloque */\n    $('#loadimages1').click(function() {\n        $('#images').load('galerias/galeria1.html', function() {\n            $('#in1').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages2').click(function() {\n        $('#images').load('galerias/galeria2.html', function() {\n            $('#in2').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages3').click(function() {\n        $('#images').load('galerias/galeria3.html', function() {\n            $('#in3').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages4').click(function() {\n        $('#images').load('galerias/galeria4.html', function() {\n            $('#in4').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages5').click(function() {\n        $('#images').load('galerias/galeria5.html', function() {\n            $('#in5').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages6').click(function() {\n        $('#images').load('galerias/galeria6.html', function() {\n            $('#in6').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages7').click(function() {\n        $('#images').load('galerias/galeria7.html', function() {\n            $('#in7').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages8').click(function() {\n        $('#images').load('galerias/galeria8.html', function() {\n            $('#in8').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages9').click(function() {\n        $('#images').load('galerias/galeria9.html', function() {\n            $('#in9').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages10').click(function() {\n        $('#images').load('galerias/galeria10.html', function() {\n            $('#in10').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n    $('#loadimages11').click(function() {\n        $('#images').load('galerias/galeria11.html', function() {\n            $('#in11').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    //PRODUCTOS\n\n    $('#loadimages12').click(function() {\n        $('#images').load('galerias/galeria12.html', function() {\n            $('#in12').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages13').click(function() {\n        $('#images').load('galerias/galeria13.html', function() {\n            $('#in13').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages14').click(function() {\n        $('#images').load('galerias/galeria14.html', function() {\n            $('#in14').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages15').click(function() {\n        $('#images').load('galerias/galeria15.html', function() {\n            $('#in15').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages16').click(function() {\n        $('#images').load('galerias/galeria16.html', function() {\n            $('#in16').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages17').click(function() {\n        $('#images').load('galerias/galeria17.html', function() {\n            $('#in17').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages18').click(function() {\n        $('#images').load('galerias/galeria18.html', function() {\n            $('#in18').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages19').click(function() {\n        $('#images').load('galerias/galeria19.html', function() {\n            $('#in19').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages20').click(function() {\n        $('#images').load('galerias/galeria20.html', function() {\n            $('#in20').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages21').click(function() {\n        $('#images').load('galerias/galeria21.html', function() {\n            $('#in21').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages22').click(function() {\n        $('#images').load('galerias/galeria22.html', function() {\n            $('#in22').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages23').click(function() {\n        $('#images').load('galerias/galeria23.html', function() {\n            $('#in23').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages24').click(function() {\n        $('#images').load('galerias/galeria24.html', function() {\n            $('#in24').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages25').click(function() {\n        $('#images').load('galerias/galeria25.html', function() {\n            $('#in25').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages26').click(function() {\n        $('#images').load('galerias/galeria26.html', function() {\n            $('#in26').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages27').click(function() {\n        $('#images').load('galerias/galeria27.html', function() {\n            $('#in27').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages28').click(function() {\n        $('#images').load('galerias/galeria28.html', function() {\n            $('#in28').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages29').click(function() {\n        $('#images').load('galerias/galeria29.html', function() {\n            $('#in29').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages30').click(function() {\n        $('#images').load('galerias/galeria30.html', function() {\n            $('#in30').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages31').click(function() {\n        $('#images').load('galerias/galeria31.html', function() {\n            $('#in31').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages32').click(function() {\n        $('#images').load('galerias/galeria32.html', function() {\n            $('#in32').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages33').click(function() {\n        $('#images').load('galerias/galeria33.html', function() {\n            $('#in33').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages34').click(function() {\n        $('#images').load('galerias/galeria34.html', function() {\n            $('#in34').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages35').click(function() {\n        $('#images').load('galerias/galeria35.html', function() {\n            $('#in35').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages36').click(function() {\n        $('#images').load('galerias/galeria36.html', function() {\n            $('#in36').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages37').click(function() {\n        $('#images').load('galerias/galeria37.html', function() {\n            $('#in37').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages38').click(function() {\n        $('#images').load('galerias/galeria38.html', function() {\n            $('#in38').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages39').click(function() {\n        $('#images').load('galerias/galeria39.html', function() {\n            $('#in39').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages40').click(function() {\n        $('#images').load('galerias/galeria40.html', function() {\n            $('#in40').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages41').click(function() {\n        $('#images').load('galerias/galeria41.html', function() {\n            $('#in41').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages42').click(function() {\n        $('#images').load('galerias/galeria42.html', function() {\n            $('#in42').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages43').click(function() {\n        $('#images').load('galerias/galeria43.html', function() {\n            $('#in43').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages44').click(function() {\n        $('#images').load('galerias/galeria44.html', function() {\n            $('#in44').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages45').click(function() {\n        $('#images').load('galerias/galeria45.html', function() {\n            $('#in45').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages46').click(function() {\n        $('#images').load('galerias/galeria46.html', function() {\n            $('#in46').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages47').click(function() {\n        $('#images').load('galerias/galeria47.html', function() {\n            $('#in47').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages48').click(function() {\n        $('#images').load('galerias/galeria48.html', function() {\n            $('#in48').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages49').click(function() {\n        $('#images').load('galerias/galeria49.html', function() {\n            $('#in49').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages50').click(function() {\n        $('#images').load('galerias/galeria50.html', function() {\n            $('#in50').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages51').click(function() {\n        $('#images').load('galerias/galeria51.html', function() {\n            $('#in51').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages52').click(function() {\n        $('#images').load('galerias/galeria52.html', function() {\n            $('#in52').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages54').click(function() {\n        $('#images').load('galerias/galeria54.html', function() {\n            $('#in54').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n    $('#loadimages54').click(function() {\n        $('#images').load('galerias/galeria54.html', function() {\n            $('#in54').trigger('click');\n        });\n    });\n    /*Fin del Bloque */\n\n\n});",
+			"file": "js/galerias.js",
+			"file_size": 10335,
+			"file_write_time": 130487940120000000,
+			"settings":
+			{
+				"buffer_size": 10529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<a id=\"in54\" class=\"example-image-link hidden_gallery_element\" href=\"img/proyectos/12_hunter_douglas/01.jpg\" data-lightbox=\"residuos\" title=\"Recuperación de residuos\">\n	<img src=\"img/proyectos/12_hunter_douglas/01.jpg\" alt=\"foto1\" />\n</a>\n<a class=\"example-image-link hidden_gallery_element\" href=\"img/proyectos/12_hunter_douglas/02.jpg\" data-lightbox=\"residuos\" title=\"Recuperación de residuos\">\n	<img src=\"img/proyectos/12_hunter_douglas/02.jpg\" alt=\"foto2\" />\n</a>\n<a class=\"example-image-link hidden_gallery_element\" href=\"img/proyectos/12_hunter_douglas/03.jpg\" data-lightbox=\"residuos\" title=\"Recuperación de residuos\">\n	<img src=\"img/proyectos/12_hunter_douglas/03.jpg\" alt=\"foto2\" />\n</a>\n<a class=\"example-image-link hidden_gallery_element\" href=\"img/proyectos/12_hunter_douglas/04.jpg\" data-lightbox=\"residuos\" title=\"Recuperación de residuos\">\n	<img src=\"img/proyectos/12_hunter_douglas/04.jpg\" alt=\"foto2\" />\n</a>\n<a class=\"example-image-link hidden_gallery_element\" href=\"img/proyectos/12_hunter_douglas/05.jpg\" data-lightbox=\"residuos\" title=\"Recuperación de residuos\">\n	<img src=\"img/proyectos/12_hunter_douglas/05.jpg\" alt=\"foto2\" />\n</a>",
+			"file": "galerias/galeria54.html",
+			"file_size": 1160,
+			"file_write_time": 130485612630000000,
+			"settings":
+			{
+				"buffer_size": 1154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "eco.php",
+			"settings":
+			{
+				"buffer_size": 29703,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comunidades.php",
+			"settings":
+			{
+				"buffer_size": 12427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "noticias.php",
+			"settings":
+			{
+				"buffer_size": 7372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contacto.php",
+			"settings":
+			{
+				"buffer_size": 3535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nosotros.php",
+			"settings":
+			{
+				"buffer_size": 9901,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "proyectos.php",
+			"settings":
+			{
+				"buffer_size": 18268,
 				"line_ending": "Unix"
 			}
 		}
@@ -81,6 +163,50 @@
 	},
 	"file_history":
 	[
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/js/galerias.js",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria32.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria30.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria13.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria23.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria24.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria45.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria27.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria16.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria51.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/proyectos.php",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria33.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria26.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria21.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria39.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria40.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria14.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria44.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria36.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria35.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria19.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria20.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria43.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria49.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria48.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria47.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria22.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria17.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria3.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria5.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria4.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria6.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria7.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria9.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria12.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria53.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria54.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria8.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria11.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria10.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria1.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/galerias/galeria18.html",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/productos.php",
+		"/Users/Hugo/Dropbox/Desarrollo/Enves/enves.sublime-project",
 		"/Users/Hugo/Dropbox/Mixture/CCB/assets/css/app.min.css",
 		"/Users/Hugo/Dropbox/Mixture/CCB/templates/home.liquid",
 		"/Users/Hugo/Dropbox/Mixture/CCB/templates/cree-su-empresa.liquid",
@@ -146,7 +272,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -162,6 +288,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"loadimages30",
+			"kit_te_cuido",
+			"kit_te_cuido-gal-30",
+			"data-lightbox=\"maletin_portatil_espejo_carta_banner\"",
+			"\"portafolio_mujer_carpa_banner\"",
+			"\"icopor\"",
+			"data-lightbox=\"buchon\"",
+			"data-lightbox=\"eventos\"",
+			"\"muñeco\"",
+			"\"escuela\"",
+			"\"art\"",
+			"data-lightbox=\"neumatico\"",
+			"data-lightbox=\"carpas\"",
+			"data-lightbox=\"guardianes\"",
+			"guardianes",
 			"eyebrow",
 			";\n",
 			"Capacitaciones a sum",
@@ -191,23 +332,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "productos.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 61062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								17653,
+								17653
 							]
 						],
 						"settings":
@@ -219,6 +361,319 @@
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 121.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6042,
+								6042
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5293.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/galerias.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10351,
+								10341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "galerias/galeria54.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1154,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "eco.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2733,
+								1551
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -227,10 +682,22 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -242,7 +709,139 @@
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "comunidades.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2897,
+								1715
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 766.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "noticias.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2714,
+								2714
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
 								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -251,22 +850,264 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "contacto.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1736,
+								1736
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "nosotros.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1598,
+								1598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
-								"bh_angle_close"
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 325.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "proyectos.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2886,
+								1914
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 646.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

@@ -359,9 +359,9 @@ $(document).ready(function() {
     });
     /*Fin del Bloque */
 
-    $('#loadimages100').click(function() {
+    $('#loadimages54').click(function() {
         $('#images').load('galerias/galeria54.html', function() {
-            $('#in100').trigger('click');
+            $('#in54').trigger('click');
         });
     });
     /*Fin del Bloque */

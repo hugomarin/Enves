@@ -146,9 +146,31 @@
 					</div>
 				</div>
 			</div>
+			<div class="light" id="third">
+				<div class="row">
+					<div class="twelve column main_title">EJE ARTICULADOR</div>
+					<div class="twelve column" id="enves_info">
+
+						<div class="eje-img"><img src="img/eje_articulador.png" alt="" /></div>
+
+					</div>
+				</div>
+			</div>
 			<div class="medium proyectos" id="second">
 				<div class="grid_gallery">
 					<div class="row ">
+						<div class="four columns">
+							<div class="element_gallery_container">
+								<a id="loadimages71" class="example-image-link " href="" data-lightbox="cemex_I_si" title="Corporativos de cemento">
+									<img src="img/thumbnails/13_cemex_corporativos/thumbnail.jpg" alt="foto1" />
+								</a>
+								<div id="images"></div>
+								<span class="subtitle3">CORPORATIVOS DE CEMENTO</span>
+								<br>
+								<span class="subtitle4">CEMEX</span>
+								<p class="secondary_p">Productos en concreto y cemento es un proyecto liderado por Envés que diversifica los productos de comunidades artesanales, aumentando su productividad e ingresos, hemos diseñado de manera exclusiva y personalizada productos de merchandisisng para Cemex, como USB concreto y madera, Portalápices, Organizadores de escritorio y Materas.</p>
+							</div>
+						</div>
 						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages100" class="example-image-link " href="" data-lightbox="guardianes" title="Recuperación de residuos">
@@ -161,7 +183,7 @@
 								<p class="secondary_p">Envés recupera el material de desecho resultado de la fabricación de cortinas Hunter Douglas, diseña productos de alta gama y de merchandising para Hunter Douglas, diseña productos masivos para un mayor aprovechamiento del residuo, vinculando así mayor número de personas al tiempo que transfiere conocimiento en producción a las comunidades que se involucren en la fabricación de los productos con el material.</p>
 							</div>
 						</div>
-						<div class="four columns">
+						<div class="four columns" style="float:left">
 							<div class="element_gallery_container">
 								<a id="loadimages8" class="example-image-link " href="" data-lightbox="guardianes" title="Proyecto con dos propósitos fundamentales: fomentar en los niños, la conservación de especies colombianas y apoyar iniciativas productivas de población vulnerable.">
 									<img src="img/thumbnails/08_guardianes/thumbnail.jpg" alt="foto1" />
@@ -172,7 +194,9 @@
 								<p class="secondary_p">Queremos dar a conocer a los niños los animales que habitan en Colombia, por eso creamos la línea Guardianes de los Animales, cada animal está acompañado por una cartilla ecológica para colorear donde los niños podrán enterarse donde y como viven, que hacen, que comen y porque son especiales cada uno de los animales.</p>
 							</div>
 						</div>
-						<div class="four columns" style="float:left">
+					</div>
+					<div class="row ">
+						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages5" class="example-image-link " href="" data-lightbox="escuela" title="Trabajo con jóvenes en situación de vulnerabilidad o víctimas del conflicto armado.">
 									<img src="img/thumbnails/05_ecopetrol_escuela_taller/thumbnail.jpg" alt="foto1" />
@@ -183,8 +207,6 @@
 								<p class="secondary_p">Envés diseña y desarrolla productos de madera certificada, exclusivos a la medida de las necesidades de cada uno de sus clientes. Abriendo nuevos mercado y posibilidades de mayores ingresos a comunidades de carpinteros.</p>
 							</div>
 						</div>
-					</div>
-					<div class="row ">
 						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages1" class="example-image-link " href="" data-lightbox="carpas" title="
@@ -198,7 +220,7 @@
 								<p class="secondary_p">Envés diseñó un portafolio de productos para la reutilización de las carpas de camión de la empresa Bavaria S.A, dando capacitación y mejorando la calidad en la producción de varios talleres de mujeres en Ciudad Bolivar, Suba y el Codito en Bogotá.</p>
 							</div>
 						</div>
-						<div class="four columns">
+						<div class="four columns" style="float:left">
 							<div class="element_gallery_container">
 								<a id="loadimages2" class="example-image-link " href="" data-lightbox="lampara" title=" Lámpara de iluminación LED, elaborada con botellas ambar no retornables.">
 									<img src="img/thumbnails/02_lamparas_botellas/thumbnail.jpg" alt="foto1" />
@@ -209,7 +231,9 @@
 								<p class="secondary_p">Proyecto planteado para reutilizar y re-significar las botellas de vidrio de envases no retornables de cervezas y gaseosas. La idea de este proyecto es diseñar y fabricar productos artesanales de alta calidad para el hogar y la oficina; empleando mano de obra calificada para esta labor como son los artesanos talladores de vidrio.</p>
 							</div>
 						</div>
-						<div class="four columns" style="float:left">
+					</div>
+					<div class="row ">
+						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages3" class="example-image-link " href="" data-lightbox="destapa" title="Hecho de acero inoxidable para garantizar su durabilidad.">
 									<img src="img/thumbnails/03_destapador_bavaria/thumbnail.jpg" alt="foto1" />
@@ -220,8 +244,6 @@
 								<p class="secondary_p">Desarrollo de un destapador resistente y de excelente calidad para la marca Club Colombia. Tunjo Inox, le hace honor al símbolo de la marca Club Colombia: el Tunjo, se convierte en un destapador contemporáneo de alta resistencia elaborado en Acero Inoxidable, con acabados y desempeño perfectos.</p>
 							</div>
 						</div>
-					</div>
-					<div class="row ">
 						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages4" class="example-image-link " href="" data-lightbox="muñeco" title="Trabajo con iniciativas productivas de Barrancabermeja.">
@@ -234,7 +256,7 @@
 								<p class="secondary_p">Proyecto de apoyo y consolidación de mercado, a través de la diversificación de líneas de muñecos corporativos desarrollados por cooperativa de trabajo asociado de Barrancabermeja; Constituida por madres cabezas de hogar. En este proyecto se desarrollaron acuerdos comerciales con grandes empresas a largo plazo además del diseño de una nueva línea llamada “guardianes de los animales”.</p>
 							</div>
 						</div>
-						<div class="four columns">
+						<div class="four columns" style="float:left">
 							<div class="element_gallery_container">
 								<a id="loadimages6" class="example-image-link " href="" data-lightbox="eventos" title="Eventos HSE">
 									<img src="img/thumbnails/06_ecopetrol_eventos/thumbnail.jpg" alt="foto1" />
@@ -245,7 +267,9 @@
 								<p class="secondary_p">Diseño, desarrollo y montaje de campañas y eventos HSE en la ciudad de Bogotá y en las principales ciudades de Colombia.</p>
 							</div>
 						</div>
-						<div class="four columns" style="float:left">
+					</div>
+					<div class="row">
+						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages7" class="example-image-link " href="" data-lightbox="buchon" title="El buchón de agua es una planta que acaba con el oxígeno de las fuentes hídricas.">
 									<img src="img/thumbnails/07_buchon_de_agua/thumbnail.jpg" alt="foto1" />
@@ -256,8 +280,6 @@
 								<p class="secondary_p">El objetivo de este proyecto es diversificar los productos derivados del papel artesanal hecho con la plata acuática llamada buchón de agua, esta planta acaba con el oxigeno de las fuentes hídricas pudriéndolas y secándolas. Enves ha trabajado con esta comunidad de mujeres desde hace más de 5 años logrando impactar su nivel de produccion y ventas, diseñando productos para clientes como Ecopetrol y la Federación Nacional de Cafeteros.</p>
 							</div>
 						</div>
-					</div>
-					<div class="row">
 						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages9" class="example-image-link " href="" data-lightbox="icopor" title="Icopor (poliuretano expandido) como desecho post industrial o post consumo.">
@@ -269,7 +291,7 @@
 								<p class="secondary_p">Proyecto de apoyo en el reciclaje de Icopor: El poliuretano expandido (Icopor) es un material que no es biodegradable y no es compatible con el proceso de reciclaje de plástico, además es un desperdicio que genera gran volumen en los botaderos. Enves está desarrollando productos elaborados a partir del reciclaje de este material.</p>
 							</div>
 						</div>
-						<div class="four columns">
+						<div class="four columns" style="float:left">
 							<div class="element_gallery_container">
 								<a id="loadimages10" class="example-image-link " href="" data-lightbox="neumatico" title="Neumático de camión desechado">
 									<img src="img/thumbnails/10_recuperacion_neumatico/thumbnail.jpg" alt="foto1" />
@@ -280,7 +302,9 @@
 								<p class="secondary_p">Con más de 11 años de experiencia en el tema de recuperación de neumáticos, Enves ha diseñado y fabricado productos que van desde cartucheras, hasta back packs y maletines para portátiles, con calidad de marroquinería, ha exportado a varios países y atendido clientes de talla mundial como Alfa Romeo, Amnistía internacional, Bridgestone y Credo Mobile entre otros.</p>
 							</div>
 						</div>
-						<div class="four columns" style="float:left">
+					</div>
+					<div class="row ">
+						<div class="four columns">
 							<div class="element_gallery_container">
 								<a id="loadimages11" class="example-image-link " href="" data-lightbox="art" title="Uso de llantas para mobiliario de arquitectura efímera">
 									<img src="img/thumbnails/11_artbo/thumbnail.jpg" alt="foto1" />
@@ -292,19 +316,11 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-
-			<div class="light" id="third">
-				<div class="row">
-					<div class="twelve column main_title">EJE ARTICULADOR</div>
-					<div class="twelve column" id="enves_info">
-
-						<div class="eje-img"><img src="img/eje_articulador.png" alt="" /></div>
-
 					</div>
 				</div>
 			</div>
+
+
 
 			<?php include_once 'includes/footer.php';?>
 		</body>

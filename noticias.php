@@ -125,7 +125,12 @@
 						<div class="date">JUNIO 13 de 2014 By Ximena Vélez</div>
 						<span class="subtitle6">PRENSA</span>
 						<br>
-						<p class="secondary_p">Artículo en CNN para web: http://ireport.cnn.com/docs/DOC-1127699 Artículo en la Revista RS: http://issuu.com/centrors/docs/rs41-caso-pyme-enves/2 Nota en el noticiero CM&: http://www.cmi.com.co/?i=emisiones News letter Sistema B: http://www.sistemab.org/sistema-b-en-la-feria-internacional-del-medioambiente-fima-colombia</p>
+						<p class="secondary_p">
+
+						<a href="http://ireport.cnn.com/docs/DOC-1127699">Artículo en CNN para web</a>,
+						<a href="http://issuu.com/centrors/docs/rs41-caso-pyme-enves/2">Artículo en la Revista RS</a>,
+						<a href="" http://www.cmi.com.co/?i="emisiones">Nota en el noticiero CM&</a>,
+						<a href="http://www.sistemab.org/sistema-b-en-la-feria-internacional-del-medioambiente-fima-colombia">News letter Sistema B:</a></p>
 					</div>
 				</div>
 			</div>
